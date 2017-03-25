@@ -13,6 +13,14 @@
 		18B031FC1E86343700740A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B031FA1E86343700740A68 /* Main.storyboard */; };
 		18B031FE1E86343700740A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B031FD1E86343700740A68 /* Assets.xcassets */; };
 		18B032011E86343700740A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B031FF1E86343700740A68 /* LaunchScreen.storyboard */; };
+		18B0320B1E8636F900740A68 /* WeChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0320A1E8636F900740A68 /* WeChatViewController.m */; };
+		18B0320E1E86372D00740A68 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0320D1E86372D00740A68 /* FriendsViewController.m */; };
+		18B032111E86374200740A68 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B032101E86374200740A68 /* DiscoverViewController.m */; };
+		18B032141E86375000740A68 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B032131E86375000740A68 /* MineViewController.m */; };
+		18B0321C1E863A1E00740A68 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0321A1E863A1E00740A68 /* Person.m */; };
+		18B0321F1E863AA300740A68 /* GreetingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0321E1E863AA300740A68 /* GreetingViewController.m */; };
+		18B032221E86537300740A68 /* GreetingPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B032211E86537300740A68 /* GreetingPresenter.m */; };
+		18B032251E86611800740A68 /* GreetingViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B032241E86611800740A68 /* GreetingViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,22 @@
 		18B031FD1E86343700740A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B032001E86343700740A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18B032021E86343700740A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B032091E8636F900740A68 /* WeChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatViewController.h; sourceTree = "<group>"; };
+		18B0320A1E8636F900740A68 /* WeChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatViewController.m; sourceTree = "<group>"; };
+		18B0320C1E86372D00740A68 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		18B0320D1E86372D00740A68 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		18B0320F1E86374200740A68 /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		18B032101E86374200740A68 /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		18B032121E86375000740A68 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		18B032131E86375000740A68 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		18B032191E863A1E00740A68 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		18B0321A1E863A1E00740A68 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		18B0321D1E863AA300740A68 /* GreetingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreetingViewController.h; sourceTree = "<group>"; };
+		18B0321E1E863AA300740A68 /* GreetingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreetingViewController.m; sourceTree = "<group>"; };
+		18B032201E86537300740A68 /* GreetingPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreetingPresenter.h; sourceTree = "<group>"; };
+		18B032211E86537300740A68 /* GreetingPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreetingPresenter.m; sourceTree = "<group>"; };
+		18B032231E86611800740A68 /* GreetingViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreetingViewModel.h; sourceTree = "<group>"; };
+		18B032241E86611800740A68 /* GreetingViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreetingViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,9 @@
 		18B031F01E86343700740A68 /* iOS-Architecture */ = {
 			isa = PBXGroup;
 			children = (
+				18B032181E863A1E00740A68 /* Model */,
+				18B0321B1E863A1E00740A68 /* View */,
+				18B032081E8636DB00740A68 /* Controller */,
 				18B031F41E86343700740A68 /* AppDelegate.h */,
 				18B031F51E86343700740A68 /* AppDelegate.m */,
 				18B031F71E86343700740A68 /* ViewController.h */,
@@ -67,6 +94,10 @@
 				18B031FF1E86343700740A68 /* LaunchScreen.storyboard */,
 				18B032021E86343700740A68 /* Info.plist */,
 				18B031F11E86343700740A68 /* Supporting Files */,
+				18B032201E86537300740A68 /* GreetingPresenter.h */,
+				18B032211E86537300740A68 /* GreetingPresenter.m */,
+				18B032231E86611800740A68 /* GreetingViewModel.h */,
+				18B032241E86611800740A68 /* GreetingViewModel.m */,
 			);
 			path = "iOS-Architecture";
 			sourceTree = "<group>";
@@ -77,6 +108,39 @@
 				18B031F21E86343700740A68 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18B032081E8636DB00740A68 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18B032091E8636F900740A68 /* WeChatViewController.h */,
+				18B0320A1E8636F900740A68 /* WeChatViewController.m */,
+				18B0320C1E86372D00740A68 /* FriendsViewController.h */,
+				18B0320D1E86372D00740A68 /* FriendsViewController.m */,
+				18B0320F1E86374200740A68 /* DiscoverViewController.h */,
+				18B032101E86374200740A68 /* DiscoverViewController.m */,
+				18B032121E86375000740A68 /* MineViewController.h */,
+				18B032131E86375000740A68 /* MineViewController.m */,
+				18B0321D1E863AA300740A68 /* GreetingViewController.h */,
+				18B0321E1E863AA300740A68 /* GreetingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18B032181E863A1E00740A68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18B032191E863A1E00740A68 /* Person.h */,
+				18B0321A1E863A1E00740A68 /* Person.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18B0321B1E863A1E00740A68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +215,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B0320E1E86372D00740A68 /* FriendsViewController.m in Sources */,
+				18B032221E86537300740A68 /* GreetingPresenter.m in Sources */,
+				18B032141E86375000740A68 /* MineViewController.m in Sources */,
+				18B032111E86374200740A68 /* DiscoverViewController.m in Sources */,
+				18B0320B1E8636F900740A68 /* WeChatViewController.m in Sources */,
 				18B031F91E86343700740A68 /* ViewController.m in Sources */,
+				18B0321C1E863A1E00740A68 /* Person.m in Sources */,
+				18B0321F1E863AA300740A68 /* GreetingViewController.m in Sources */,
+				18B032251E86611800740A68 /* GreetingViewModel.m in Sources */,
 				18B031F61E86343700740A68 /* AppDelegate.m in Sources */,
 				18B031F31E86343700740A68 /* main.m in Sources */,
 			);

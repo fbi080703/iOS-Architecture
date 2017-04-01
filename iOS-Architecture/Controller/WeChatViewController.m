@@ -14,6 +14,8 @@
 
 #import "GreetingViewModel.h"
 
+#import "HHRouter.h"
+
 
 @interface WeChatViewController ()
 
@@ -39,7 +41,7 @@
     Person *person = [[Person alloc] init];
     person.firstName = @"Longwang";
     person.lastName = @"Wu";
-    GreetingViewController *greetingViewController = [[GreetingViewController alloc] init];
+    //GreetingViewController *greetingViewController = [[GreetingViewController alloc] init];
     //greetingViewController.person = person;
     
     //mvp
@@ -51,6 +53,8 @@
     
     //GreetingPresenter *presenter = [[GreetingPresenter alloc] init:greetingViewController person:person];
     //greetingViewController.presenter = presenter;
+    
+    GreetingViewController *greetingViewController = (GreetingViewController *)[[HHRouter shared] matchController:@"/greeting/1/"];
     
     //MVVM
     

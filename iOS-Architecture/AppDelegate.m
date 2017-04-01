@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "HHRouter.h"
+#import "GreetingViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
     // Override point for customization after application launch.
+    
+    [[HHRouter shared] map:@"/greeting/:greetId/" toControllerClass:[GreetingViewController class]];
     return YES;
 }
 

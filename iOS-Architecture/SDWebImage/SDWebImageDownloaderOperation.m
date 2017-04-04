@@ -164,6 +164,8 @@ typedef NSMutableDictionary<NSString *, id> SDCallbacksDictionary;
     }
     
     [self.dataTask resume];
+    
+    //NSLog(@"%@---%@",[_request URL].absoluteString,[NSThread currentThread]);
 
     if (self.dataTask) {
         for (SDWebImageDownloaderProgressBlock progressBlock in [self callbacksForKey:kProgressCallbackKey]) {

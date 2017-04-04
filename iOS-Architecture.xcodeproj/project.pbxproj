@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1842B8E11E9345BB000DC5C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1842B8E01E9345BB000DC5C8 /* Assets.xcassets */; };
+		1842B8E51E9345FF000DC5C8 /* ico_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 1842B8E41E9345FF000DC5C8 /* ico_1024.png */; };
 		18B031F31E86343700740A68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B031F21E86343700740A68 /* main.m */; };
 		18B031F61E86343700740A68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B031F51E86343700740A68 /* AppDelegate.m */; };
 		18B031F91E86343700740A68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B031F81E86343700740A68 /* ViewController.m */; };
 		18B031FC1E86343700740A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B031FA1E86343700740A68 /* Main.storyboard */; };
-		18B031FE1E86343700740A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B031FD1E86343700740A68 /* Assets.xcassets */; };
 		18B032011E86343700740A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B031FF1E86343700740A68 /* LaunchScreen.storyboard */; };
 		18B0320B1E8636F900740A68 /* WeChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0320A1E8636F900740A68 /* WeChatViewController.m */; };
 		18B0320E1E86372D00740A68 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0320D1E86372D00740A68 /* FriendsViewController.m */; };
@@ -52,6 +53,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1842B8E01E9345BB000DC5C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1842B8E41E9345FF000DC5C8 /* ico_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_1024.png; sourceTree = "<group>"; };
 		18B031EE1E86343700740A68 /* iOS-Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B031F21E86343700740A68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18B031F41E86343700740A68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,7 +62,6 @@
 		18B031F71E86343700740A68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		18B031F81E86343700740A68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18B031FB1E86343700740A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18B031FD1E86343700740A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B032001E86343700740A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18B032021E86343700740A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B032091E8636F900740A68 /* WeChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatViewController.h; sourceTree = "<group>"; };
@@ -177,8 +179,9 @@
 				18B031F51E86343700740A68 /* AppDelegate.m */,
 				18B031F71E86343700740A68 /* ViewController.h */,
 				18B031F81E86343700740A68 /* ViewController.m */,
+				1842B8E01E9345BB000DC5C8 /* Assets.xcassets */,
 				18B031FA1E86343700740A68 /* Main.storyboard */,
-				18B031FD1E86343700740A68 /* Assets.xcassets */,
+				1842B8E41E9345FF000DC5C8 /* ico_1024.png */,
 				18B031FF1E86343700740A68 /* LaunchScreen.storyboard */,
 				18B032021E86343700740A68 /* Info.plist */,
 				18B031F11E86343700740A68 /* Supporting Files */,
@@ -299,11 +302,11 @@
 				37B743511E8FA2C500DD50A0 /* UIImage+MultiFormat.h */,
 				37B743521E8FA2C500DD50A0 /* UIImage+MultiFormat.m */,
 				37B743531E8FA2C500DD50A0 /* UIImage+WebP.h */,
+				37B743581E8FA2C500DD50A0 /* UIImageView+WebCache.m */,
 				37B743541E8FA2C500DD50A0 /* UIImage+WebP.m */,
 				37B743551E8FA2C500DD50A0 /* UIImageView+HighlightedWebCache.h */,
 				37B743561E8FA2C500DD50A0 /* UIImageView+HighlightedWebCache.m */,
 				37B743571E8FA2C500DD50A0 /* UIImageView+WebCache.h */,
-				37B743581E8FA2C500DD50A0 /* UIImageView+WebCache.m */,
 				37B743591E8FA2C500DD50A0 /* UIView+WebCache.h */,
 				37B7435A1E8FA2C500DD50A0 /* UIView+WebCache.m */,
 				37B7435B1E8FA2C500DD50A0 /* UIView+WebCacheOperation.h */,
@@ -385,7 +388,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B032011E86343700740A68 /* LaunchScreen.storyboard in Resources */,
-				18B031FE1E86343700740A68 /* Assets.xcassets in Resources */,
+				1842B8E11E9345BB000DC5C8 /* Assets.xcassets in Resources */,
+				1842B8E51E9345FF000DC5C8 /* ico_1024.png in Resources */,
 				18B031FC1E86343700740A68 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

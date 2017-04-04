@@ -79,6 +79,7 @@ static char TAG_ACTIVITY_SHOW;
             });
         }];
         [self sd_setImageLoadOperation:operation forKey:validOperationKey];
+        //[operation cancel];
     } else {
         dispatch_main_async_safe(^{
             [self sd_removeActivityIndicator];

@@ -7,6 +7,8 @@
 //
 
 #import "FriendsViewController.h"
+#import <CoreGraphics/CoreGraphics.h>
+#import <ImageIO/ImageIO.h>
 
 @interface FriendsViewController ()
 
@@ -17,6 +19,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    /*NSString *resource = [[NSBundle mainBundle] pathForResource:@"ico_1024" ofType:@"png"];
+    NSData *data = [NSData dataWithContentsOfFile:resource options:0 error:nil];
+    
+    CFDataRef dataRef = (__bridge CFDataRef)data;
+    
+    CGImageSourceRef source = CGImageSourceCreateWithData(dataRef, nil);
+    
+    CGImageRef cgImage = CGImageSourceCreateImageAtIndex(source, 0, nil);
+    
+    UIImage *image = [UIImage imageWithCGImage:cgImage];*/
 }
 
 - (void)didReceiveMemoryWarning {

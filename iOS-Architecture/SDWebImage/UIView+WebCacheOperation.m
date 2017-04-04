@@ -20,7 +20,7 @@ typedef NSMutableDictionary<NSString *, id> SDOperationsDictionary;
 
 - (SDOperationsDictionary *)operationDictionary {
     
-    NSLog(@"operationDictionary---------%p",self);
+    //NSLog(@"operationDictionary---------%p",self);
     
     SDOperationsDictionary *operations = objc_getAssociatedObject(self, &loadOperationKey);
     if (operations) {

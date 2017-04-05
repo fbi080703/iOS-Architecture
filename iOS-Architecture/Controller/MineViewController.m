@@ -4,6 +4,15 @@
 //
 //  Created by Apple on 2017/3/25.
 //  Copyright © 2017年 Apple. All rights reserved.
+
+#ifdef DEBUG
+#define TitleName @"测试版本"
+#define sociaURL  @"weibo.com"
+#elif BETA
+#define TitleName @"BETA版本"
+#else
+#define TitleName @"正式版本"
+#endif
 //
 
 #import "MineViewController.h"
@@ -48,6 +57,15 @@
         //NSLog(@"4");
         NSLog(@"4---%@",[NSThread currentThread]);
     });
+    
+    self.title = [self readValueFromConfigurationFile];
+}
+
+- (NSString *) readValueFromConfigurationFile {
+    NSBundle *bundle = [NSBundle mainBundle];
+    NSString *path = [bundle pathForResource:@"configuration" ofType:@"plist"];
+    NSDictionary *config = [NSDictionary dictionaryWithContentsOfFile:path];
+    return config[@"TitleName"];
 }
 
 - (void)didReceiveMemoryWarning {

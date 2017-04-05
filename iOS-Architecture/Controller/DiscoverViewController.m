@@ -9,16 +9,19 @@
 
 #import "DiscoverViewController.h"
 
-#import "FLAnimatedImageView.h"
-#import "SDWebImageManager.h"
-#import "UIImageView+WebCache.h"
-#import "UIView+WebCache.h"
-#import "FLAnimatedImageView+WebCache.h"
+//#import "FLAnimatedImageView.h"
+#import <SDWebImageManager.h>
+//#import "SDWebImageManager.h"
+//#import "UIImageView+WebCache.h"
+//#import "UIView+WebCache.h"
+//#import "FLAnimatedImageView+WebCache.h"
+#import <UIImageView+WebCache.h>
+#import <UIView+WebCacheOperation.h>
 
 @interface MyCustomTableViewCell : UITableViewCell
 
 @property (nonatomic, strong) UILabel *customTextLabel;
-@property (nonatomic, strong) FLAnimatedImageView *customImageView;
+@property (nonatomic, strong) UIImageView *customImageView;
 
 @end
 
@@ -27,7 +30,7 @@
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
-        _customImageView = [[FLAnimatedImageView alloc] initWithFrame:CGRectMake(20.0, 2.0, 60.0, 40.0)];
+        _customImageView = [[UIImageView alloc] initWithFrame:CGRectMake(20.0, 2.0, 60.0, 40.0)];
         [self.contentView addSubview:_customImageView];
         _customTextLabel = [[UILabel alloc] initWithFrame:CGRectMake(100.0, 12.0, 200, 20.0)];
         [self.contentView addSubview:_customTextLabel];
@@ -113,8 +116,8 @@
         cell = [[MyCustomTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-    [cell.customImageView sd_setShowActivityIndicatorView:YES];
-    [cell.customImageView sd_setIndicatorStyle:UIActivityIndicatorViewStyleGray];
+    //[cell.customImageView sd_setShowActivityIndicatorView:YES];
+    //[cell.customImageView sd_setIndicatorStyle:UIActivityIndicatorViewStyleGray];
     
     cell.customTextLabel.text = [NSString stringWithFormat:@"Image #%ld", (long)indexPath.row];
     [cell.customImageView sd_setImageWithURL:[NSURL URLWithString:_objects[indexPath.row]]

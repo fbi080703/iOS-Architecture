@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import "PluggableApplicationDelegate.h"
 
-@property (strong, nonatomic) UIWindow *window;
+@interface AppDelegate : PluggableApplicationDelegate
 
 
 @end

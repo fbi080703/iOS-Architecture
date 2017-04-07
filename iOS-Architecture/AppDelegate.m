@@ -11,48 +11,45 @@
 #import <HHRouter.h>
 #import "GreetingViewController.h"
 
+
+#import "LoggerApplicationService.h"
+
+#import "ApplicationDidEnterBackgroundService.h"
+
 @interface AppDelegate ()
+
+@property (nonatomic, strong) LoggerApplicationService *loggerService;
+@property (nonatomic, strong) ApplicationDidEnterBackgroundService *backgroundService;
 
 @end
 
+//[[HHRouter shared] map:@"/greeting/:greetId/" toControllerClass:[GreetingViewController class]];
+
 @implementation AppDelegate
 
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (NSArray<ApplicationService> *)services{
     
+    return (NSArray<ApplicationService> *)@[self.loggerService,self.backgroundService];
+}
+
+#pragma mark - getter and setter
+
+- (LoggerApplicationService *)loggerService{
     
-    // Override point for customization after application launch.
+    if (!_loggerService) {
+        
+        _loggerService = [[LoggerApplicationService alloc] init];
+    }
+    return _loggerService;
+}
+
+- (ApplicationDidEnterBackgroundService *)backgroundService{
     
-    [[HHRouter shared] map:@"/greeting/:greetId/" toControllerClass:[GreetingViewController class]];
-    return YES;
+    if (!_backgroundService) {
+        
+        _backgroundService = [[ApplicationDidEnterBackgroundService alloc] init];
+    }
+    return _backgroundService;
 }
-
-
-- (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
-}
-
-
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-}
-
-
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
-}
-
-
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-}
-
-
-- (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
-
 
 @end

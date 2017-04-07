@@ -25,6 +25,11 @@
 		3715DCDE1E94C4FB009FC894 /* configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3715DCDD1E94C4FB009FC894 /* configuration.plist */; };
 		3715DCE01E94C508009FC894 /* configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3715DCDF1E94C508009FC894 /* configuration.plist */; };
 		3715DCE21E94C510009FC894 /* configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3715DCE11E94C510009FC894 /* configuration.plist */; };
+		374C8AC01E97B3A200877A74 /* ApplicationDidEnterBackgroundService.m in Sources */ = {isa = PBXBuildFile; fileRef = 374C8AB91E97B3A200877A74 /* ApplicationDidEnterBackgroundService.m */; };
+		374C8AC11E97B3A200877A74 /* LoggerApplicationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 374C8ABB1E97B3A200877A74 /* LoggerApplicationService.m */; };
+		374C8AC21E97B3A200877A74 /* PluggableApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 374C8ABD1E97B3A200877A74 /* PluggableApplicationDelegate.m */; };
+		374C8AC31E97B3A200877A74 /* UIApplication+BackgroundTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 374C8ABF1E97B3A200877A74 /* UIApplication+BackgroundTask.m */; };
+		374C8AC61E97B3D100877A74 /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 374C8AC51E97B3D100877A74 /* UIViewController+Tracking.m */; };
 		376264A61E8B8BA200877D98 /* JLROptionalRouteParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3762649D1E8B8BA200877D98 /* JLROptionalRouteParser.m */; };
 		376264A71E8B8BA200877D98 /* JLRRouteDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3762649F1E8B8BA200877D98 /* JLRRouteDefinition.m */; };
 		376264A81E8B8BA200877D98 /* JLRRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 376264A11E8B8BA200877D98 /* JLRRouteRequest.m */; };
@@ -66,6 +71,16 @@
 		3715DCDD1E94C4FB009FC894 /* configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = configuration.plist; sourceTree = "<group>"; };
 		3715DCDF1E94C508009FC894 /* configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = configuration.plist; sourceTree = "<group>"; };
 		3715DCE11E94C510009FC894 /* configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = configuration.plist; sourceTree = "<group>"; };
+		374C8AB81E97B3A200877A74 /* ApplicationDidEnterBackgroundService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationDidEnterBackgroundService.h; sourceTree = "<group>"; };
+		374C8AB91E97B3A200877A74 /* ApplicationDidEnterBackgroundService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationDidEnterBackgroundService.m; sourceTree = "<group>"; };
+		374C8ABA1E97B3A200877A74 /* LoggerApplicationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggerApplicationService.h; sourceTree = "<group>"; };
+		374C8ABB1E97B3A200877A74 /* LoggerApplicationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggerApplicationService.m; sourceTree = "<group>"; };
+		374C8ABC1E97B3A200877A74 /* PluggableApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluggableApplicationDelegate.h; sourceTree = "<group>"; };
+		374C8ABD1E97B3A200877A74 /* PluggableApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluggableApplicationDelegate.m; sourceTree = "<group>"; };
+		374C8ABE1E97B3A200877A74 /* UIApplication+BackgroundTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+BackgroundTask.h"; sourceTree = "<group>"; };
+		374C8ABF1E97B3A200877A74 /* UIApplication+BackgroundTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+BackgroundTask.m"; sourceTree = "<group>"; };
+		374C8AC41E97B3D100877A74 /* UIViewController+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
+		374C8AC51E97B3D100877A74 /* UIViewController+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
 		3762649C1E8B8BA200877D98 /* JLROptionalRouteParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLROptionalRouteParser.h; sourceTree = "<group>"; };
 		3762649D1E8B8BA200877D98 /* JLROptionalRouteParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLROptionalRouteParser.m; sourceTree = "<group>"; };
 		3762649E1E8B8BA200877D98 /* JLRRouteDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRRouteDefinition.h; sourceTree = "<group>"; };
@@ -112,6 +127,7 @@
 		18B031F01E86343700740A68 /* iOS-Architecture */ = {
 			isa = PBXGroup;
 			children = (
+				374C8AB71E97B3A200877A74 /* Utils */,
 				3762649A1E8B8BA200877D98 /* JLRoutes */,
 				18B032181E863A1E00740A68 /* Model */,
 				18B0321B1E863A1E00740A68 /* View */,
@@ -191,6 +207,23 @@
 				25733A682508B9253C5FEDFF /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		374C8AB71E97B3A200877A74 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				374C8AC41E97B3D100877A74 /* UIViewController+Tracking.h */,
+				374C8AC51E97B3D100877A74 /* UIViewController+Tracking.m */,
+				374C8AB81E97B3A200877A74 /* ApplicationDidEnterBackgroundService.h */,
+				374C8AB91E97B3A200877A74 /* ApplicationDidEnterBackgroundService.m */,
+				374C8ABA1E97B3A200877A74 /* LoggerApplicationService.h */,
+				374C8ABB1E97B3A200877A74 /* LoggerApplicationService.m */,
+				374C8ABC1E97B3A200877A74 /* PluggableApplicationDelegate.h */,
+				374C8ABD1E97B3A200877A74 /* PluggableApplicationDelegate.m */,
+				374C8ABE1E97B3A200877A74 /* UIApplication+BackgroundTask.h */,
+				374C8ABF1E97B3A200877A74 /* UIApplication+BackgroundTask.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		3762649A1E8B8BA200877D98 /* JLRoutes */ = {
@@ -379,18 +412,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B0320E1E86372D00740A68 /* FriendsViewController.m in Sources */,
+				374C8AC31E97B3A200877A74 /* UIApplication+BackgroundTask.m in Sources */,
 				376264A61E8B8BA200877D98 /* JLROptionalRouteParser.m in Sources */,
 				376264A71E8B8BA200877D98 /* JLRRouteDefinition.m in Sources */,
 				18B032221E86537300740A68 /* GreetingPresenter.m in Sources */,
+				374C8AC61E97B3D100877A74 /* UIViewController+Tracking.m in Sources */,
 				18B032141E86375000740A68 /* MineViewController.m in Sources */,
 				18B032111E86374200740A68 /* DiscoverViewController.m in Sources */,
 				18B0320B1E8636F900740A68 /* WeChatViewController.m in Sources */,
 				18B031F91E86343700740A68 /* ViewController.m in Sources */,
 				18B0321C1E863A1E00740A68 /* Person.m in Sources */,
+				374C8AC01E97B3A200877A74 /* ApplicationDidEnterBackgroundService.m in Sources */,
+				374C8AC11E97B3A200877A74 /* LoggerApplicationService.m in Sources */,
 				18B0321F1E863AA300740A68 /* GreetingViewController.m in Sources */,
 				376264A91E8B8BA200877D98 /* JLRRouteResponse.m in Sources */,
 				376264A81E8B8BA200877D98 /* JLRRouteRequest.m in Sources */,
 				18B032251E86611800740A68 /* GreetingViewModel.m in Sources */,
+				374C8AC21E97B3A200877A74 /* PluggableApplicationDelegate.m in Sources */,
 				376264AA1E8B8BA200877D98 /* JLRoutes.m in Sources */,
 				18B031F61E86343700740A68 /* AppDelegate.m in Sources */,
 				18B031F31E86343700740A68 /* main.m in Sources */,

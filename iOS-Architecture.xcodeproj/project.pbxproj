@@ -30,7 +30,6 @@
 		376264A81E8B8BA200877D98 /* JLRRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 376264A11E8B8BA200877D98 /* JLRRouteRequest.m */; };
 		376264A91E8B8BA200877D98 /* JLRRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 376264A31E8B8BA200877D98 /* JLRRouteResponse.m */; };
 		376264AA1E8B8BA200877D98 /* JLRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = 376264A51E8B8BA200877D98 /* JLRoutes.m */; };
-		379BACE81E94C0CE00B063D1 /* configuation.plist in Resources */ = {isa = PBXBuildFile; fileRef = 379BACE31E94C0CE00B063D1 /* configuation.plist */; };
 		BCBD6BF30180114066A3813C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3EB5A219588103AB19EAC1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -77,7 +76,6 @@
 		376264A31E8B8BA200877D98 /* JLRRouteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteResponse.m; sourceTree = "<group>"; };
 		376264A41E8B8BA200877D98 /* JLRoutes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRoutes.h; sourceTree = "<group>"; };
 		376264A51E8B8BA200877D98 /* JLRoutes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRoutes.m; sourceTree = "<group>"; };
-		379BACE31E94C0CE00B063D1 /* configuation.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = configuation.plist; path = "/GitHub/iOS-Architecture/iOS-Architecture/config/BETA/configuation.plist"; sourceTree = "<absolute>"; };
 		6FD3BEA36FFCCEB2C205CA73 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -322,7 +320,6 @@
 				1842B8E11E9345BB000DC5C8 /* Assets.xcassets in Resources */,
 				1842B8E51E9345FF000DC5C8 /* ico_1024.png in Resources */,
 				3715DCE21E94C510009FC894 /* configuration.plist in Resources */,
-				379BACE81E94C0CE00B063D1 /* configuation.plist in Resources */,
 				18B031FC1E86343700740A68 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,7 +354,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "echo \"CONFIGURATION -> ${CONFIGURATION}\"\nRESOURCE_PATH=${SRCROOT}/${PRODUCT_NAME}/config/${CONFIGURATION}\n\nBUILD_APP_DIR=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\n\necho \"Copying all files under ${RESOURCE_PATH} to ${BUILD_APP_DIR}\"\ncp -v \"${RESOURCE_PATH}/\"* \"${BUILD_APP_DIR}/\"\n\n";
+			shellScript = "echo \"CONFIGURATION -> ${CONFIGURATION}\"\nRESOURCE_PATH=${SRCROOT}/${PRODUCT_NAME}/config/${CONFIGURATION}\nBUILD_APP_DIR=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Copying all files under ${RESOURCE_PATH} to ${BUILD_APP_DIR}\"\ncp -v \"${RESOURCE_PATH}/\"* \"${BUILD_APP_DIR}/\"";
 		};
 		A1EBBB8991505FFF43F2A6C2 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

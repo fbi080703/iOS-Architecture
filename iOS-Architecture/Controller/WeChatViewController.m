@@ -15,6 +15,9 @@
 #import "GreetingViewModel.h"
 
 #import "HHRouter.h"
+#import "Person_Internal.h"
+
+#import "MyClass.h"
 
 
 @interface WeChatViewController ()
@@ -32,6 +35,10 @@
     jumpButton.frame = CGRectMake(100.0f, 100.0f, 50.0f, 50.0f);
     [jumpButton addTarget:self action:@selector(onJumpButtonTouch) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:jumpButton];
+    
+    
+    MyClass *myClass = [[MyClass alloc] init];
+    [myClass printName];
 }
 
 - (void)onJumpButtonTouch{
@@ -41,6 +48,7 @@
     Person *person = [[Person alloc] init];
     person.firstName = @"Longwang";
     person.lastName = @"Wu";
+    person.creditCardPassword = @"dfdd";
     //GreetingViewController *greetingViewController = [[GreetingViewController alloc] init];
     //greetingViewController.person = person;
     

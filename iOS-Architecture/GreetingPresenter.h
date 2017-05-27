@@ -28,4 +28,8 @@
 @property (nonatomic, strong) id<GreetingView> view;
 @property (nonatomic, strong) Person           *person;
 
+- (instancetype)initWithIndex:(NSInteger)index;
+
++ (instancetype)greetingPresenter;
+
 @end

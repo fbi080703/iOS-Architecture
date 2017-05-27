@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iOS-Architecture/Controller/WeChatViewController.m"
-            timestampString = "512465924.356018"
+            timestampString = "516271713.602014"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "-onJumpButtonTouch"
             landmarkType = "7">
          </BreakpointContent>

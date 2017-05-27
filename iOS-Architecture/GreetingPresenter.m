@@ -26,4 +26,30 @@
     [_view setGreetingWith:greeting];
 }
 
+- (instancetype)initWithIndex:(NSInteger)index{
+    
+    if (self = [super init]) {
+        //[self dd];
+        
+     //GreetingPresenter *gred = [GreetingPresenter greetingPresenter];
+        
+        NSLog(@"index ---%@  %p",self,[self class]);
+    }
+    return self;
+}
+
++ (instancetype)greetingPresenter{
+    
+    GreetingPresenter *presenter = [[self alloc] init];
+    
+    NSLog(@"greetingPresenter--%p  %p",self,[presenter class]);
+    
+    return presenter;
+}
+
+- (void)dd{
+    
+}
+
+
 @end

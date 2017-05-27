@@ -35,6 +35,11 @@
 		376264A81E8B8BA200877D98 /* JLRRouteRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 376264A11E8B8BA200877D98 /* JLRRouteRequest.m */; };
 		376264A91E8B8BA200877D98 /* JLRRouteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 376264A31E8B8BA200877D98 /* JLRRouteResponse.m */; };
 		376264AA1E8B8BA200877D98 /* JLRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = 376264A51E8B8BA200877D98 /* JLRoutes.m */; };
+		379936821EC5A9980095AFF0 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3799367F1EC5A9980095AFF0 /* MyClass.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		379936831EC5A9980095AFF0 /* MyClass+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 379936811EC5A9980095AFF0 /* MyClass+Add.m */; };
+		3799368C1EC5AC8E0095AFF0 /* MyClass+Multiplied.m in Sources */ = {isa = PBXBuildFile; fileRef = 3799368B1EC5AC8E0095AFF0 /* MyClass+Multiplied.m */; };
+		37B462911ED4309600DA084F /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B462901ED4309600DA084F /* YYLabel.m */; };
+		37B462931ED4312E00DA084F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B462921ED4312D00DA084F /* CoreText.framework */; };
 		BCBD6BF30180114066A3813C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3EB5A219588103AB19EAC1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +96,16 @@
 		376264A31E8B8BA200877D98 /* JLRRouteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRRouteResponse.m; sourceTree = "<group>"; };
 		376264A41E8B8BA200877D98 /* JLRoutes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRoutes.h; sourceTree = "<group>"; };
 		376264A51E8B8BA200877D98 /* JLRoutes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRoutes.m; sourceTree = "<group>"; };
+		379936751EC314670095AFF0 /* Person_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person_Internal.h; sourceTree = "<group>"; };
+		3799367E1EC5A9980095AFF0 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		3799367F1EC5A9980095AFF0 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		379936801EC5A9980095AFF0 /* MyClass+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyClass+Add.h"; sourceTree = "<group>"; };
+		379936811EC5A9980095AFF0 /* MyClass+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MyClass+Add.m"; sourceTree = "<group>"; };
+		3799368A1EC5AC8E0095AFF0 /* MyClass+Multiplied.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyClass+Multiplied.h"; sourceTree = "<group>"; };
+		3799368B1EC5AC8E0095AFF0 /* MyClass+Multiplied.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MyClass+Multiplied.m"; sourceTree = "<group>"; };
+		37B4628F1ED4309600DA084F /* YYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLabel.h; sourceTree = "<group>"; };
+		37B462901ED4309600DA084F /* YYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLabel.m; sourceTree = "<group>"; };
+		37B462921ED4312D00DA084F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		6FD3BEA36FFCCEB2C205CA73 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37B462931ED4312E00DA084F /* CoreText.framework in Frameworks */,
 				BCBD6BF30180114066A3813C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,6 +143,10 @@
 		18B031F01E86343700740A68 /* iOS-Architecture */ = {
 			isa = PBXGroup;
 			children = (
+				3799367E1EC5A9980095AFF0 /* MyClass.h */,
+				3799367F1EC5A9980095AFF0 /* MyClass.m */,
+				379936801EC5A9980095AFF0 /* MyClass+Add.h */,
+				379936811EC5A9980095AFF0 /* MyClass+Add.m */,
 				374C8AB71E97B3A200877A74 /* Utils */,
 				3762649A1E8B8BA200877D98 /* JLRoutes */,
 				18B032181E863A1E00740A68 /* Model */,
@@ -146,6 +166,8 @@
 				18B032211E86537300740A68 /* GreetingPresenter.m */,
 				18B032231E86611800740A68 /* GreetingViewModel.h */,
 				18B032241E86611800740A68 /* GreetingViewModel.m */,
+				3799368A1EC5AC8E0095AFF0 /* MyClass+Multiplied.h */,
+				3799368B1EC5AC8E0095AFF0 /* MyClass+Multiplied.m */,
 			);
 			path = "iOS-Architecture";
 			sourceTree = "<group>";
@@ -181,6 +203,7 @@
 			children = (
 				18B032191E863A1E00740A68 /* Person.h */,
 				18B0321A1E863A1E00740A68 /* Person.m */,
+				379936751EC314670095AFF0 /* Person_Internal.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -188,6 +211,8 @@
 		18B0321B1E863A1E00740A68 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				37B4628F1ED4309600DA084F /* YYLabel.h */,
+				37B462901ED4309600DA084F /* YYLabel.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -195,6 +220,7 @@
 		1B2E3B50F678BFE4333FF1A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				37B462921ED4312D00DA084F /* CoreText.framework */,
 				0E3EB5A219588103AB19EAC1 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -419,12 +445,16 @@
 				374C8AC61E97B3D100877A74 /* UIViewController+Tracking.m in Sources */,
 				18B032141E86375000740A68 /* MineViewController.m in Sources */,
 				18B032111E86374200740A68 /* DiscoverViewController.m in Sources */,
+				37B462911ED4309600DA084F /* YYLabel.m in Sources */,
 				18B0320B1E8636F900740A68 /* WeChatViewController.m in Sources */,
 				18B031F91E86343700740A68 /* ViewController.m in Sources */,
 				18B0321C1E863A1E00740A68 /* Person.m in Sources */,
 				374C8AC01E97B3A200877A74 /* ApplicationDidEnterBackgroundService.m in Sources */,
 				374C8AC11E97B3A200877A74 /* LoggerApplicationService.m in Sources */,
 				18B0321F1E863AA300740A68 /* GreetingViewController.m in Sources */,
+				379936821EC5A9980095AFF0 /* MyClass.m in Sources */,
+				379936831EC5A9980095AFF0 /* MyClass+Add.m in Sources */,
+				3799368C1EC5AC8E0095AFF0 /* MyClass+Multiplied.m in Sources */,
 				376264A91E8B8BA200877D98 /* JLRRouteResponse.m in Sources */,
 				376264A81E8B8BA200877D98 /* JLRRouteRequest.m in Sources */,
 				18B032251E86611800740A68 /* GreetingViewModel.m in Sources */,
@@ -555,9 +585,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6FD3BEA36FFCCEB2C205CA73 /* Pods.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBETA;
 				DEVELOPMENT_TEAM = K47Y4YGJZU;
 				INFOPLIST_FILE = "iOS-Architecture/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(CustomAppBundleld)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -568,9 +599,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 25733A682508B9253C5FEDFF /* Pods.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBETA;
 				DEVELOPMENT_TEAM = K47Y4YGJZU;
 				INFOPLIST_FILE = "iOS-Architecture/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(CustomAppBundleld)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -638,6 +670,7 @@
 					"BETA=1",
 				);
 				INFOPLIST_FILE = "iOS-Architecture/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "$(CustomAppBundleld)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

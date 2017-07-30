@@ -4,6 +4,9 @@
 source "https://github.com/CocoaPods/Old-Specs"
 
 platform :ios, '7.0'
-pod 'SDWebImage', '~>3.8'
-pod 'HHRouter', '~> 0.1.8'
-pod 'YYAsyncLayer'
+target 'iOS-Architecture' do
+    pod 'SDWebImage'
+    pod 'HHRouter'
+    pod 'YYAsyncLayer'
+    pod 'GYHttpMock'
+end

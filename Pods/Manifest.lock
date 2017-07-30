@@ -1,4 +1,5 @@
 PODS:
+  - GYHttpMock (1.0.1)
   - HHRouter (0.1.9)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
@@ -6,13 +7,17 @@ PODS:
   - YYAsyncLayer (1.0)
 
 DEPENDENCIES:
-  - HHRouter (~> 0.1.8)
-  - SDWebImage (~> 3.8)
+  - GYHttpMock
+  - HHRouter
+  - SDWebImage
   - YYAsyncLayer
 
 SPEC CHECKSUMS:
+  GYHttpMock: ad08e55ce8bde4e7f7b4d0cbc79ff23c1311658b
   HHRouter: c096524e95a07a1970e6e23a19ee5a9592dc326d
-  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SDWebImage: '098e97e6176540799c27e804c96653ee0833d13c'
   YYAsyncLayer: df6b01ebc695c5f6b4c15dd5c23fa3e081eb25c0
 
-COCOAPODS: 0.37.2
+PODFILE CHECKSUM: 1f6bf8468a4e15ae67c2b12ae01ed531ac74b3c1
+
+COCOAPODS: 1.2.1

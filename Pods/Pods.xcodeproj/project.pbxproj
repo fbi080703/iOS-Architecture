@@ -1,2597 +1,1318 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>010CCF3F7673D193D24C15EC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>41CB0584C4445BD1E76BEA31</string>
-				<string>96636E5ED09DC4F6F08C431E</string>
-				<string>908DFB5317AE4981512BAB8D</string>
-				<string>C5F7EAC3B8ABDEBADBF85BA7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-YYAsyncLayer</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>01892387BCC84ECA8824076F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>02CC4F4AE59333DAF922900B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E672349F86ADBAB058331FFC</string>
-				<string>9C24684B850EE318BD9C4D7A</string>
-				<string>FDE08D7F040FF7153136DE45</string>
-				<string>6BD8632AD5D25A49523A281C</string>
-				<string>30C105E531A652D08B0B8BC5</string>
-				<string>68EBE6B461BFBA116FA5C40D</string>
-				<string>9CE846969D8478086E12EBBD</string>
-				<string>F0BC0988FCB36BEA5178A45C</string>
-				<string>2D9E520C182ED0FAACC7FFB9</string>
-				<string>B7E3F4190C9CD7F6F262191B</string>
-				<string>8D8CB93560942BCD430867CB</string>
-				<string>205ABEAC028883A390411FD6</string>
-				<string>C570C28818531DBE8000D047</string>
-				<string>43AB5E26F81019EF67F36E39</string>
-				<string>93C76A018F34E498BBF42A77</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0542F360EFD8AECA2FF631AD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0729C6F5CD214FC585B4DA6F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0CE43DF5791102369930BB7B</string>
-				<string>821DE51F1F30276E0542EC01</string>
-				<string>A5D46DE92C909FC9A2772E70</string>
-				<string>ABAC2D22505E03E5DB1B082A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0960BCF0016230A3906F3739</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D5C7B4F38ECA421D659EC485</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-HHRouter/Pods-HHRouter-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>BETA</string>
-		</dict>
-		<key>09B15047188FC0E13ABC47B2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A8642BC0584D8DAA3FA59EFC</string>
-				<string>6EDCA22E99C3996F5C5033CB</string>
-				<string>AF0CB67C9E92030F95535A4E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>HHRouter</string>
-			<key>path</key>
-			<string>HHRouter</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09FECE6C9898389AC669EC03</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SDWebImageDecoder.m</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImageDecoder.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C03F1256D6B68624ABD3E38</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8832C223137A9BB2F48B6C84</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0CE43DF5791102369930BB7B</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>0CF1CAF0908D05D390EF7DD6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SDImageCache.m</string>
-			<key>path</key>
-			<string>SDWebImage/SDImageCache.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0DA35846CA6EA5EC27DD2643</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>96636E5ED09DC4F6F08C431E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-YYAsyncLayer/Pods-YYAsyncLayer-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0DB3D88ED816867E3414B236</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3C785E356AAB31906D5F1F21</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0DC63AC18F83217B9F05E7D3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9B1DDB4EDE31CABC972C9D12</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>12AC74D3ACC4D4981C5684C1</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0640</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>BED1A12FD2224F729D154308</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>E4215F689F0C46EA2AEC5875</string>
-			<key>productRefGroup</key>
-			<string>1655FB4CA3884B05AC713967</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>D5B33B0BA39D4E2A98701487</string>
-				<string>93871E1B9E445DBC763AAAD0</string>
-				<string>B51958DBD01FECDC5306F542</string>
-				<string>E83632AA59901FB4CBA40235</string>
-			</array>
-		</dict>
-		<key>1655FB4CA3884B05AC713967</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BB5E64C704DC4599996C166A</string>
-				<string>2F66948BDEF85A15D279D687</string>
-				<string>C1D943A5E867422D4E648AF8</string>
-				<string>CD677B224CD4D1C0C20BFDAD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>16B7AA4DA3BF09C4E23D91C8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>53A27E417AF2647BB4C7E68E</string>
-				<string>C194FD27BFA7B53AB670AEF1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>173B3E7CD700513D17DAF240</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YYAsyncLayer.m</string>
-			<key>path</key>
-			<string>YYAsyncLayer/YYAsyncLayer.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>19F769CC898B3FAFF087704D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SDWebImageCompat.m</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImageCompat.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1A788EA2AA5C292F4277A615</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SDWebImageManager.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImageManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1F05CBB1653625A1A03B145C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D18F09A514807EABC013134B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1F280BBD9BD56F2A75FF1382</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1A788EA2AA5C292F4277A615</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1F781D7A5BB58BFB0C155BC9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C1FC33DD8E6DFE79AB9B5049</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>205ABEAC028883A390411FD6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6867999692A2971105061C55</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>29169F02FAE4430E078DEC76</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0CE43DF5791102369930BB7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2B51B33DCCD6B75775553299</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SDWebImageManager.m</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImageManager.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2C9841033D545936890AB913</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C26075E9DAB869F3E1D00FA0</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2D36D348915EF2F98DB5526B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>29169F02FAE4430E078DEC76</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2D9E520C182ED0FAACC7FFB9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BCEC966D5C9DBA3EA6A4550C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F66948BDEF85A15D279D687</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-HHRouter.a</string>
-			<key>path</key>
-			<string>libPods-HHRouter.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>30566202CA7C58CE8AE9278F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YYTransaction.m</string>
-			<key>path</key>
-			<string>YYAsyncLayer/YYTransaction.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30C105E531A652D08B0B8BC5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>09FECE6C9898389AC669EC03</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>314B7BCF3D1667A432A6B09C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>09B15047188FC0E13ABC47B2</string>
-				<string>9EF39620A011DEE08E6712DF</string>
-				<string>9609EC4ACFAD445D88D1EE44</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>34129F78EC197AE80B4D1A51</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>344DECBD53B0D615299F6B45</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>96636E5ED09DC4F6F08C431E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-YYAsyncLayer/Pods-YYAsyncLayer-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>BETA</string>
-		</dict>
-		<key>35315207DA398238D7E62135</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>96636E5ED09DC4F6F08C431E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-YYAsyncLayer/Pods-YYAsyncLayer-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3A1F57DBA35A5954E8841DC1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A7B547D7018C02F7BBC064EF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3B4950EA21EBF253D4BD01AA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImageView+WebCache.m</string>
-			<key>path</key>
-			<string>SDWebImage/UIImageView+WebCache.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B741500A5DE58D24CCE7979</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AEED3AEF75ED32C71F9FBF9B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3C1F39AF31EBF590FD1179EC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSData+ImageContentType.h</string>
-			<key>path</key>
-			<string>SDWebImage/NSData+ImageContentType.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3C785E356AAB31906D5F1F21</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YYSentinel.h</string>
-			<key>path</key>
-			<string>YYAsyncLayer/YYSentinel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E4217FFCCD5BB8CE67DAB6A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>638B242A3CB08F007F9A9187</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>BETA</string>
-		</dict>
-		<key>3F02D8CEA98A8294CC77869A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIButton+WebCache.m</string>
-			<key>path</key>
-			<string>SDWebImage/UIButton+WebCache.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>40043E94DFA495DAFDFBE7EB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SDWebImageOperation.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImageOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>41CB0584C4445BD1E76BEA31</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-YYAsyncLayer.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>43AB5E26F81019EF67F36E39</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B4950EA21EBF253D4BD01AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>48E429DBBCF6E798A7F83586</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0729C6F5CD214FC585B4DA6F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>48FA9F674E881F7E48B8435A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DD7D12541B4DBEA459F9B7B8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-SDWebImage/Pods-SDWebImage-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>BETA</string>
-		</dict>
-		<key>4D8731290FD190F603FEDE27</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4F081346C6F34A13D078D15E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-SDWebImage-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52E788C797F9D860A00D7DAE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>01892387BCC84ECA8824076F</string>
-				<string>AD35A4BFF3EB1F18F6BDA4D9</string>
-				<string>EE379C03DDF0D8F33AB754B4</string>
-				<string>4D8731290FD190F603FEDE27</string>
-				<string>0542F360EFD8AECA2FF631AD</string>
-				<string>638B242A3CB08F007F9A9187</string>
-				<string>5C3A9981BF16F4A007B9E8D9</string>
-				<string>C26075E9DAB869F3E1D00FA0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>path</key>
-			<string>Target Support Files/Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>53A27E417AF2647BB4C7E68E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0CE43DF5791102369930BB7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>53ED55B779F7C0F4B6169C41</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7D777E6121B8A49E0DE28619</string>
-				<string>A348C218B7DCF589141D33D0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>54D43DA7DFC698F87E254C7C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E67A066BC5D54FA8775E7B2E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5B66214BC679AFDBD95C8316</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD1AEE52595E33563662836F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5BEBEFD4F49396A48A399DAF</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>5C3A9981BF16F4A007B9E8D9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5C4FD5F9D8944B612EBD29B9</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>12AC74D3ACC4D4981C5684C1</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>B51958DBD01FECDC5306F542</string>
-			<key>remoteInfo</key>
-			<string>Pods-SDWebImage</string>
-		</dict>
-		<key>5C88953F309C061500A05AEA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>908DFB5317AE4981512BAB8D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5E08C799D53D92714F0C5DF5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>173B3E7CD700513D17DAF240</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5E40C264F0D66CC28C2AEF3E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SDWebImage.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>629B9BC5D621D6A15800213A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DD7D12541B4DBEA459F9B7B8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-SDWebImage/Pods-SDWebImage-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>638B242A3CB08F007F9A9187</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.beta.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>64C54FD168678BF80B368498</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DEE5492587E5D1B53B0590C3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>685A245C2F6D19D29FABFB9F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SDImageCache.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDImageCache.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6867999692A2971105061C55</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImage+MultiFormat.m</string>
-			<key>path</key>
-			<string>SDWebImage/UIImage+MultiFormat.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>68EBE6B461BFBA116FA5C40D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC29C6942F5E821D2BEA21A6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6941088AFD844FF6A8C0F528</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-HHRouter-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6BD8632AD5D25A49523A281C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>19F769CC898B3FAFF087704D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6E8D3A606DFA5E9B69052390</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D28A1AE385D83F9A20CDC6F4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>6EDCA22E99C3996F5C5033CB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>HHRouter.m</string>
-			<key>path</key>
-			<string>HHRouter/HHRouter.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7B91D8C3ED66881660E2EDB9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0CE43DF5791102369930BB7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7D777E6121B8A49E0DE28619</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6EDCA22E99C3996F5C5033CB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>7D9C6D6233910D8DD3CE6957</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImageView+HighlightedWebCache.h</string>
-			<key>path</key>
-			<string>SDWebImage/UIImageView+HighlightedWebCache.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7FD3686F7F965727669E4A35</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-YYAsyncLayer</string>
-			<key>target</key>
-			<string>E83632AA59901FB4CBA40235</string>
-			<key>targetProxy</key>
-			<string>E44BAFBC2DC1A15BAC3F519B</string>
-		</dict>
-		<key>8108A8B0B183BC987B3000A1</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5C3A9981BF16F4A007B9E8D9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>812B5BCB6D280C2080749A61</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-SDWebImage-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>821DE51F1F30276E0542EC01</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>ImageIO.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/ImageIO.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>82C7D0A3FE851EF23A4C0278</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DD7D12541B4DBEA459F9B7B8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-SDWebImage/Pods-SDWebImage-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>86369D48378DC53D7831B223</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImageView+HighlightedWebCache.m</string>
-			<key>path</key>
-			<string>SDWebImage/UIImageView+HighlightedWebCache.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86AE1765F17C31C2BF440776</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImage+GIF.m</string>
-			<key>path</key>
-			<string>SDWebImage/UIImage+GIF.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8778FFF3C11348D92254E35B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30566202CA7C58CE8AE9278F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8832C223137A9BB2F48B6C84</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIView+WebCacheOperation.h</string>
-			<key>path</key>
-			<string>SDWebImage/UIView+WebCacheOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8CB93560942BCD430867CB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86AE1765F17C31C2BF440776</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8DD31ACB54199B75FF279D14</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SDWebImagePrefetcher.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImagePrefetcher.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FBB025FD8B7A26366F95BBB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>48FA9F674E881F7E48B8435A</string>
-				<string>629B9BC5D621D6A15800213A</string>
-				<string>82C7D0A3FE851EF23A4C0278</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>90069D2D54A65978CBB0B330</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImageView+WebCache.h</string>
-			<key>path</key>
-			<string>SDWebImage/UIImageView+WebCache.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>908DFB5317AE4981512BAB8D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-YYAsyncLayer-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>922A329DA478C32AFE2F37FE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5C88953F309C061500A05AEA</string>
-				<string>5E08C799D53D92714F0C5DF5</string>
-				<string>54D43DA7DFC698F87E254C7C</string>
-				<string>8778FFF3C11348D92254E35B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>92DDC5C5514074FDB0EA5566</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-HHRouter</string>
-			<key>target</key>
-			<string>93871E1B9E445DBC763AAAD0</string>
-			<key>targetProxy</key>
-			<string>C06BB5FB1963DB5620FD3137</string>
-		</dict>
-		<key>93871E1B9E445DBC763AAAD0</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>CF8966C83BBBEB2FC113EFB1</string>
-			<key>buildPhases</key>
-			<array>
-				<string>53ED55B779F7C0F4B6169C41</string>
-				<string>2D36D348915EF2F98DB5526B</string>
-				<string>B2DFD59845BABFDD6A1AB948</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-HHRouter</string>
-			<key>productName</key>
-			<string>Pods-HHRouter</string>
-			<key>productReference</key>
-			<string>2F66948BDEF85A15D279D687</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>93C76A018F34E498BBF42A77</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E730199B47572514AE46CF4A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>93C84746EF05A2093E16C5E9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DD31ACB54199B75FF279D14</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9609EC4ACFAD445D88D1EE44</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9C9EECBB688A847A71D5760E</string>
-				<string>173B3E7CD700513D17DAF240</string>
-				<string>3C785E356AAB31906D5F1F21</string>
-				<string>E67A066BC5D54FA8775E7B2E</string>
-				<string>C1FC33DD8E6DFE79AB9B5049</string>
-				<string>30566202CA7C58CE8AE9278F</string>
-				<string>010CCF3F7673D193D24C15EC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>YYAsyncLayer</string>
-			<key>path</key>
-			<string>YYAsyncLayer</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>96636E5ED09DC4F6F08C431E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-YYAsyncLayer-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B1DDB4EDE31CABC972C9D12</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SDWebImageDownloader.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImageDownloader.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C24684B850EE318BD9C4D7A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>812B5BCB6D280C2080749A61</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9C9EECBB688A847A71D5760E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YYAsyncLayer.h</string>
-			<key>path</key>
-			<string>YYAsyncLayer/YYAsyncLayer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9CE846969D8478086E12EBBD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CC46482A622E031AB21F62F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9E7838922E12BD7F2403E6E9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFE1C63725AB7DE07F6A13FA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9EF39620A011DEE08E6712DF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E4C35F90731EEB95062047D6</string>
-				<string>B616A30ACBB30E97193B473C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SDWebImage</string>
-			<key>path</key>
-			<string>SDWebImage</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A08E617FCB4BD5055D3BB7B9</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C6377C18B6BF464AB19B38DF</string>
-				<string>D568B4C9ADF1C109A4975DD2</string>
-				<string>9E7838922E12BD7F2403E6E9</string>
-				<string>1F05CBB1653625A1A03B145C</string>
-				<string>0DC63AC18F83217B9F05E7D3</string>
-				<string>5B66214BC679AFDBD95C8316</string>
-				<string>1F280BBD9BD56F2A75FF1382</string>
-				<string>F769913D978D63A5EB8F94D7</string>
-				<string>93C84746EF05A2093E16C5E9</string>
-				<string>64C54FD168678BF80B368498</string>
-				<string>D522730E5CE4A079649E7561</string>
-				<string>3B741500A5DE58D24CCE7979</string>
-				<string>EAE4A7046658AE24BCD3FA08</string>
-				<string>A717061899D49CCB481DF99C</string>
-				<string>0C03F1256D6B68624ABD3E38</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A27AD2B4DD68C0CF7D0BC26D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3E4217FFCCD5BB8CE67DAB6A</string>
-				<string>8108A8B0B183BC987B3000A1</string>
-				<string>2C9841033D545936890AB913</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A348C218B7DCF589141D33D0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EA5EC1083487A8B47DEDB35C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A46FCF562A520999452CAC13</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D5C7B4F38ECA421D659EC485</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-HHRouter/Pods-HHRouter-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>A5D46DE92C909FC9A2772E70</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>QuartzCore.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>A717061899D49CCB481DF99C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>90069D2D54A65978CBB0B330</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A7B547D7018C02F7BBC064EF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EE379C03DDF0D8F33AB754B4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A85D2C1BFF4E0AAEEE54727D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ABAC2D22505E03E5DB1B082A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A8642BC0584D8DAA3FA59EFC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>HHRouter.h</string>
-			<key>path</key>
-			<string>HHRouter/HHRouter.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ABAC2D22505E03E5DB1B082A</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>AD35A4BFF3EB1F18F6BDA4D9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AEED3AEF75ED32C71F9FBF9B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImage+MultiFormat.h</string>
-			<key>path</key>
-			<string>SDWebImage/UIImage+MultiFormat.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AF0CB67C9E92030F95535A4E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C23E1D5D3E76EE386D3636E7</string>
-				<string>D5C7B4F38ECA421D659EC485</string>
-				<string>EA5EC1083487A8B47DEDB35C</string>
-				<string>6941088AFD844FF6A8C0F528</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-HHRouter</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B0883C16132317213E94234E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D5C7B4F38ECA421D659EC485</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-HHRouter/Pods-HHRouter-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>B250AC438FCF9678BC7676E5</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B2DFD59845BABFDD6A1AB948</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F25591EF2351C5E42149AF5B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B51958DBD01FECDC5306F542</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8FBB025FD8B7A26366F95BBB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>02CC4F4AE59333DAF922900B</string>
-				<string>16B7AA4DA3BF09C4E23D91C8</string>
-				<string>A08E617FCB4BD5055D3BB7B9</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-SDWebImage</string>
-			<key>productName</key>
-			<string>Pods-SDWebImage</string>
-			<key>productReference</key>
-			<string>C1D943A5E867422D4E648AF8</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>B5298F7306D528DE9ADB1AB7</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>BETA=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>BETA</string>
-		</dict>
-		<key>B616A30ACBB30E97193B473C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5E40C264F0D66CC28C2AEF3E</string>
-				<string>DD7D12541B4DBEA459F9B7B8</string>
-				<string>812B5BCB6D280C2080749A61</string>
-				<string>4F081346C6F34A13D078D15E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-SDWebImage</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7E3F4190C9CD7F6F262191B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3F02D8CEA98A8294CC77869A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BB5E64C704DC4599996C166A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>BCEC966D5C9DBA3EA6A4550C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SDWebImagePrefetcher.m</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImagePrefetcher.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BED1A12FD2224F729D154308</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B5298F7306D528DE9ADB1AB7</string>
-				<string>B250AC438FCF9678BC7676E5</string>
-				<string>5BEBEFD4F49396A48A399DAF</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>C06BB5FB1963DB5620FD3137</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>12AC74D3ACC4D4981C5684C1</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>93871E1B9E445DBC763AAAD0</string>
-			<key>remoteInfo</key>
-			<string>Pods-HHRouter</string>
-		</dict>
-		<key>C194FD27BFA7B53AB670AEF1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>821DE51F1F30276E0542EC01</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C1D943A5E867422D4E648AF8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-SDWebImage.a</string>
-			<key>path</key>
-			<string>libPods-SDWebImage.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C1FC33DD8E6DFE79AB9B5049</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>YYTransaction.h</string>
-			<key>path</key>
-			<string>YYAsyncLayer/YYTransaction.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C23E1D5D3E76EE386D3636E7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-HHRouter.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C26075E9DAB869F3E1D00FA0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C2E00A519AC4EC67E0000F7B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7B91D8C3ED66881660E2EDB9</string>
-				<string>D5807E6FAA3EEC5E55809593</string>
-				<string>A85D2C1BFF4E0AAEEE54727D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C4D99269BAB484F8AA9FA955</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52E788C797F9D860A00D7DAE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C570C28818531DBE8000D047</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86369D48378DC53D7831B223</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C5BAE15C83C94AF609F8B0C5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImage+GIF.h</string>
-			<key>path</key>
-			<string>SDWebImage/UIImage+GIF.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C5F7EAC3B8ABDEBADBF85BA7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-YYAsyncLayer-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C6377C18B6BF464AB19B38DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3C1F39AF31EBF590FD1179EC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C6DFC351EDA1420EF7949E64</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-SDWebImage</string>
-			<key>target</key>
-			<string>B51958DBD01FECDC5306F542</string>
-			<key>targetProxy</key>
-			<string>5C4FD5F9D8944B612EBD29B9</string>
-		</dict>
-		<key>C82A4416450B3A35E1EB973E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C89788A70D09B24275B6BB30</string>
-				<string>0DB3D88ED816867E3414B236</string>
-				<string>1F781D7A5BB58BFB0C155BC9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C89788A70D09B24275B6BB30</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9C9EECBB688A847A71D5760E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CB808CA8A6B527CB8E9B03EC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSData+ImageContentType.m</string>
-			<key>path</key>
-			<string>SDWebImage/NSData+ImageContentType.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CC46482A622E031AB21F62F5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SDWebImageDownloaderOperation.m</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImageDownloaderOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CD677B224CD4D1C0C20BFDAD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-YYAsyncLayer.a</string>
-			<key>path</key>
-			<string>libPods-YYAsyncLayer.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>CF8966C83BBBEB2FC113EFB1</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0960BCF0016230A3906F3739</string>
-				<string>A46FCF562A520999452CAC13</string>
-				<string>B0883C16132317213E94234E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D18F09A514807EABC013134B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SDWebImageDecoder.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImageDecoder.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D28A1AE385D83F9A20CDC6F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0CE43DF5791102369930BB7B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D37F64C933E11A2CDB82B620</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>344DECBD53B0D615299F6B45</string>
-				<string>0DA35846CA6EA5EC27DD2643</string>
-				<string>35315207DA398238D7E62135</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D522730E5CE4A079649E7561</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C5BAE15C83C94AF609F8B0C5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D568B4C9ADF1C109A4975DD2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>685A245C2F6D19D29FABFB9F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D5807E6FAA3EEC5E55809593</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A5D46DE92C909FC9A2772E70</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D5B33B0BA39D4E2A98701487</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A27AD2B4DD68C0CF7D0BC26D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>3A1F57DBA35A5954E8841DC1</string>
-				<string>6E8D3A606DFA5E9B69052390</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>92DDC5C5514074FDB0EA5566</string>
-				<string>C6DFC351EDA1420EF7949E64</string>
-				<string>7FD3686F7F965727669E4A35</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>BB5E64C704DC4599996C166A</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>D5C7B4F38ECA421D659EC485</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-HHRouter-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD1AEE52595E33563662836F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SDWebImageDownloaderOperation.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImageDownloaderOperation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD7D12541B4DBEA459F9B7B8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-SDWebImage-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DEE5492587E5D1B53B0590C3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIButton+WebCache.h</string>
-			<key>path</key>
-			<string>SDWebImage/UIButton+WebCache.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E4215F689F0C46EA2AEC5875</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>34129F78EC197AE80B4D1A51</string>
-				<string>48E429DBBCF6E798A7F83586</string>
-				<string>314B7BCF3D1667A432A6B09C</string>
-				<string>1655FB4CA3884B05AC713967</string>
-				<string>C4D99269BAB484F8AA9FA955</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E44BAFBC2DC1A15BAC3F519B</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>12AC74D3ACC4D4981C5684C1</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>E83632AA59901FB4CBA40235</string>
-			<key>remoteInfo</key>
-			<string>Pods-YYAsyncLayer</string>
-		</dict>
-		<key>E4C35F90731EEB95062047D6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3C1F39AF31EBF590FD1179EC</string>
-				<string>CB808CA8A6B527CB8E9B03EC</string>
-				<string>685A245C2F6D19D29FABFB9F</string>
-				<string>0CF1CAF0908D05D390EF7DD6</string>
-				<string>EFE1C63725AB7DE07F6A13FA</string>
-				<string>19F769CC898B3FAFF087704D</string>
-				<string>D18F09A514807EABC013134B</string>
-				<string>09FECE6C9898389AC669EC03</string>
-				<string>9B1DDB4EDE31CABC972C9D12</string>
-				<string>FC29C6942F5E821D2BEA21A6</string>
-				<string>DD1AEE52595E33563662836F</string>
-				<string>CC46482A622E031AB21F62F5</string>
-				<string>1A788EA2AA5C292F4277A615</string>
-				<string>2B51B33DCCD6B75775553299</string>
-				<string>40043E94DFA495DAFDFBE7EB</string>
-				<string>8DD31ACB54199B75FF279D14</string>
-				<string>BCEC966D5C9DBA3EA6A4550C</string>
-				<string>DEE5492587E5D1B53B0590C3</string>
-				<string>3F02D8CEA98A8294CC77869A</string>
-				<string>C5BAE15C83C94AF609F8B0C5</string>
-				<string>86AE1765F17C31C2BF440776</string>
-				<string>AEED3AEF75ED32C71F9FBF9B</string>
-				<string>6867999692A2971105061C55</string>
-				<string>7D9C6D6233910D8DD3CE6957</string>
-				<string>86369D48378DC53D7831B223</string>
-				<string>90069D2D54A65978CBB0B330</string>
-				<string>3B4950EA21EBF253D4BD01AA</string>
-				<string>8832C223137A9BB2F48B6C84</string>
-				<string>E730199B47572514AE46CF4A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Core</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E672349F86ADBAB058331FFC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CB808CA8A6B527CB8E9B03EC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E67A066BC5D54FA8775E7B2E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>YYSentinel.m</string>
-			<key>path</key>
-			<string>YYAsyncLayer/YYSentinel.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E730199B47572514AE46CF4A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIView+WebCacheOperation.m</string>
-			<key>path</key>
-			<string>SDWebImage/UIView+WebCacheOperation.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E83632AA59901FB4CBA40235</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D37F64C933E11A2CDB82B620</string>
-			<key>buildPhases</key>
-			<array>
-				<string>922A329DA478C32AFE2F37FE</string>
-				<string>C2E00A519AC4EC67E0000F7B</string>
-				<string>C82A4416450B3A35E1EB973E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-YYAsyncLayer</string>
-			<key>productName</key>
-			<string>Pods-YYAsyncLayer</string>
-			<key>productReference</key>
-			<string>CD677B224CD4D1C0C20BFDAD</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>EA5EC1083487A8B47DEDB35C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-HHRouter-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EAE4A7046658AE24BCD3FA08</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D9C6D6233910D8DD3CE6957</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EE379C03DDF0D8F33AB754B4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFE1C63725AB7DE07F6A13FA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SDWebImageCompat.h</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImageCompat.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F0BC0988FCB36BEA5178A45C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B51B33DCCD6B75775553299</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F25591EF2351C5E42149AF5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A8642BC0584D8DAA3FA59EFC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F769913D978D63A5EB8F94D7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>40043E94DFA495DAFDFBE7EB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FC29C6942F5E821D2BEA21A6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>SDWebImageDownloader.m</string>
-			<key>path</key>
-			<string>SDWebImage/SDWebImageDownloader.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDE08D7F040FF7153136DE45</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0CF1CAF0908D05D390EF7DD6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>12AC74D3ACC4D4981C5684C1</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B1A3A55C9137D6DD9FE89591CAC0BB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78335379299B4E4953D76B3CC19F1963 /* Foundation.framework */; };
+		0D6F5F590A4204E3B589575B3A8E0AED /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = FA65E5F90CE7C7F1457E9F549768571E /* UIImage+GIF.m */; };
+		0E646C975BE93458499C43881604BD73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78335379299B4E4953D76B3CC19F1963 /* Foundation.framework */; };
+		0E86943EEB252B0282281BFCE269C61F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78335379299B4E4953D76B3CC19F1963 /* Foundation.framework */; };
+		0F597D384E0DCAC9DC405FF3E058E047 /* GYMockRequestDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D18999E02AFFAA680A2C4F027AABB4D /* GYMockRequestDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB4E35A43DB9DE633DC8CACF3B6148E /* GYNSURLSessionHook.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BF6B40DE74F1FEF9ED33F04C17DD45 /* GYNSURLSessionHook.m */; };
+		1CDF48761FF7839C417E09C2E0B340E7 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 195E10A9E5858EBE82FE63C678ECFE66 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		221185B3EE1ADEE7C7E6C27BA72A511D /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CE2260A3640DA44FE377A711BA7F42 /* UIView+WebCacheOperation.m */; };
+		225A9A6DEE5D388749D71B53091D0A87 /* NSString+mock.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7BB3A6D37770469466D3B2294BA8B5 /* NSString+mock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		262610F07FA36D7B76282B5C67B7E076 /* GYMockRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 821638A99D28B79F28F9B0C97C5F2665 /* GYMockRequest.m */; };
+		27A3A339B05F98916EC8A1A0E7B7DC17 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 917B6E71A55E3ECE8AA1CFBD9D29C906 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C97BA01AA6B938E507A8C102EDEFBF3 /* GYMockRequestDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 2044CC9D5A965153D58D256C630D9A6B /* GYMockRequestDSL.m */; };
+		2D8415ED0E6AC96DFAAD02A944E8A41D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4079A04D7D6E2CC379535BDA2AD49D /* CFNetwork.framework */; };
+		2F346775D066AB4589578BDD22B1733B /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 680109F9E07968779874077A023F0998 /* SDWebImageCompat.m */; };
+		323BBCE6B68C12B6C8C1EE7606A30F0C /* GYMockURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E21F75C2E0AD7466DAA35C81D433824 /* GYMockURLProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33C74B27324F9DFBED8C05D262B1A1A1 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 414555A321E70A396D4D84560FADCBB6 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38BF2EBB9DECC6A44ACC8FD07790201F /* YYAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CC262F6847FAE7BA964F161D8DA837 /* YYAsyncLayer.m */; };
+		4593CBC2902785566B1A93106AD51DFC /* YYTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FA52B663D3A37C992DECA4DF508F89 /* YYTransaction.m */; };
+		4ECA7F087A604929BD0817E66FEEB81A /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C500B6634BC7306223A90B26AD9F0AF /* SDWebImageDownloader.m */; };
+		573627CD4F3B223DC45CC7A69C05DC54 /* YYSentinel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7D68EC0E25BFC8B2AC14073A1DC3C1 /* YYSentinel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59E6AF1F00817A3950AD0543E18AE0D5 /* GYMockResponseDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AD86FA9541164E47B0CDB0303E73D67 /* GYMockResponseDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B4B9C1457FD8D0531AAC7E26CD162E1 /* GYMockResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A3912297724FB5F9300A6D04FCF6196D /* GYMockResponse.m */; };
+		5B60A33981B3B9C4F8D59C3BC652A4E9 /* GYNSURLConnectionHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C609AEDB5D52C691C05B45D0D6FF7F7 /* GYNSURLConnectionHook.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5BB9CF9F39DBDF770682A35AABE88CEB /* GYMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C5A383E37322C2342F313F4FE2CB08 /* GYMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BCDCCB3F6713F46C5478307DB7E3AEF /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 019369303F0ADB6594150678E1F65518 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C182E0290CC9511F6DAC4B662D0DBF1 /* GYMockResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B6281823C6322EF9C99E2AA30606F6 /* GYMockResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CDB5F496FB97D9DCA1717A1B1318DDD /* GYMockRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DEE448C15226958D452B3F35466EFD /* GYMockRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D7873455F09258D7FC42B1D3AA3462E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BBC3572DB7D2A2212736BA5A711EBC /* QuartzCore.framework */; };
+		61E5FB3A7441F1FC3E99EA7098114A37 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BBFDEDDE07B381483873F92E3739EE1 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67B35F5304F64DA5CFD101601112AC01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78335379299B4E4953D76B3CC19F1963 /* Foundation.framework */; };
+		6CF09579D6E28F8AF0550DEF78411667 /* NSString+mock.m in Sources */ = {isa = PBXBuildFile; fileRef = 70DB3D6CED03B6203535E147541F35D0 /* NSString+mock.m */; };
+		6EB3B9840229F4405EEE428557785506 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B0E580EF6209C70461CF70A3466EE /* UIImage+MultiFormat.m */; };
+		70DE414E4A89DA5ECB1766AAB005439F /* GYMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B7AD95AB3BEF8B1E08DA82E1FA095C /* GYMatcher.m */; };
+		75FDB54E750C3D6FB8644FCB5348E354 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BF2A773D5498962869A587938BC4CD0 /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77A2C2BED6C10E73000F696490F397AC /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABCEA65C2B4E40EEC3778CDBF57E24B /* UIButton+WebCache.m */; };
+		79101CEBC9ECA277DAB296D30E24FC4B /* GYHttpMock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B9C13B9DDABF46A514FF0DE002A782 /* GYHttpMock-dummy.m */; };
+		799CA5F8B4583A669918D0CE38AF8D1D /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 989C5B3EB76F756AC8A249D703625482 /* SDWebImageManager.m */; };
+		7B2539DED1E33188A02681A79D82E09D /* HHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 94839AEC8B3F76E2046C229B90F93B7C /* HHRouter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7F2B717F53667B8D1397C9635ABD778A /* GYMockResponseDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D3472E41F820E9C3885172522A28FC /* GYMockResponseDSL.m */; };
+		8278C1A712A6BC8E06F2115ADF8C63B6 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 621DD5CB4E3B7D784EAB6134AE16AE7F /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83F30D89982FC3267B559DDA64D84D07 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8E89A8B3876296310F5BF5874F30B9 /* UIImageView+WebCache.m */; };
+		842DE31022BA0A5D02AE2514B17C983F /* GYHttpClientHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A85022EF0D51E7AFBBE22571A744ED0 /* GYHttpClientHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8454A567163F07FAFE6943A6D4529627 /* GYHttpMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 08D0C14FDBCE04B08368FB6A874E933B /* GYHttpMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91082DD18A4647A60C727A0AA9321F63 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8D51800402BE3B7A468D5F5CE28E29 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		912480A9208C7EDFCB8A8F623BE771BF /* GYNSURLSessionHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 403F12434E99C7341BED4007829A1937 /* GYNSURLSessionHook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93C74E84A4A25AD0922DB6F273D1D7B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78335379299B4E4953D76B3CC19F1963 /* Foundation.framework */; };
+		94145B444B90B77F19DE66D0DFA9A45E /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E419BE948A4F108FEF6172972991678 /* SDWebImage-dummy.m */; };
+		96B397C19BD83E29AE7EE83F35D5FD88 /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B05C383E10CA5F497B38277F0BAC3BEC /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98EDB6330BD1AF5CF7F8657E26F78DD6 /* YYTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 06EE2C200E56D6E365523C8D79F648AB /* YYTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BB0C712F999099B0CA2D3B104514C17 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 3812186D82FD25CC4B35439AACA0E1CB /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F0E0F8F362F10919AE95B45B869880C /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 16150F825578E29FA8D22F6C9EECDB35 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0A148B3388344C205629EA6EA55609D /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6625BB9366FDF77CEE9D5A7CC8457784 /* SDWebImageDecoder.m */; };
+		AEC9AB221F4357C4EF4608876B680E27 /* GYNSURLConnectionHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABAE4DB5140079D664419CCA0418B5C /* GYNSURLConnectionHook.m */; };
+		B337FC401F39EF1B344914BC1F2AD954 /* NSURLRequest+GYURLRequestProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 2971684F1EA4500A9D7C3B4058427F88 /* NSURLRequest+GYURLRequestProtocol.m */; };
+		B6D7FE6AEA3257B6469E1EE61910FDD7 /* YYAsyncLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E318979AEB8958A8D66EF6C3DD36714D /* YYAsyncLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7EE34994AE4170445DFC13B07E34DE6 /* NSURLRequest+GYURLRequestProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0070287BD82FDA7626CC05C7686B1B84 /* NSURLRequest+GYURLRequestProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B92189C59D11301E729C2145D9E71E84 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C324679D71B002D06FA529811091404 /* SDWebImagePrefetcher.m */; };
+		BA519788FF3E52FC2CB8F2675DF29367 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF1FE07E151679AAB651A61A9E1964F /* UIImageView+HighlightedWebCache.m */; };
+		BCD1A2BA0ED1A861B48551144C42E0EB /* HHRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C40663B7B5590A0ACE6D5F83EED20D /* HHRouter-dummy.m */; };
+		C308D1D1886A7962C88FC8B807A17EB8 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D11F9AA2038A8424DF981B660A09C56C /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D946660983EFDF9C7C99729226EB9E39 /* YYSentinel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CB81E80B073855AC76E2E0B6284695 /* YYSentinel.m */; };
+		D987AF018E207E85334E64526DC02905 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8BC0F684E1D360D2FEF24B6FCA3840 /* ImageIO.framework */; };
+		E370CA94A002031438FE1CD8EBE67452 /* GYHttpClientHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D062084C93ED170B9098AC73B2601ED /* GYHttpClientHook.m */; };
+		E67D72BA994395A0572C4FF9BE4E2550 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C592E3043756892336EA7EC189A968 /* NSData+ImageContentType.m */; };
+		E88D15A1BC7217C689B1E9C0BE1F98F0 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 087E490A516AB327B580E48ACD914F67 /* SDWebImageDownloaderOperation.m */; };
+		EBD82B7F8E41FFDC6851291E49642101 /* GYMockURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = A329112897B1E7390B36757860420BC7 /* GYMockURLProtocol.m */; };
+		EDD02276F6FDA8D1AEA852C53E793698 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D75D3EB22EE11DB197FAD2AE8C7B5986 /* SDImageCache.m */; };
+		EE17F6191B2255802E862F2AED5BDC2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DBDBE7984E7196E087172229E598C7 /* UIKit.framework */; };
+		F3DB57267B015E26B8496BB58809E182 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = EE496BB834C4EED9B5C676C3DE788322 /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F56E8B862E0F646491108F3F4A896D13 /* GYHttpMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC245D92D13915FDBC78433EE0A002A /* GYHttpMock.m */; };
+		F5D0925431F32484ACD81CC867C3B0DC /* HHRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = F31FB74ABD1DB7F613201D8CDD9BA1CC /* HHRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F841F793395AF603CB91F2E22FD12BCD /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5929A350578EC5DFC4FA21C74C2E578F /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9F2894649908C572065AF820C4DCFC1 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E508F8AE646248253FAF195C95C34FD /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCBCAFB27A880147915F727C5756A6A8 /* Pods-iOS-Architecture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C9AF66F55C8D9883BDE25B998B9108 /* Pods-iOS-Architecture-dummy.m */; };
+		FE84390987C4B0C3CA911F622C42F2E7 /* YYAsyncLayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A09ECDF719EA454DA9D571D09182F0E9 /* YYAsyncLayer-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		006B60DF702602AECC436B496B378B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF3A13052D2CA9F888C88974C07EB566;
+			remoteInfo = SDWebImage;
+		};
+		54343E1D7FF344F2D11159BF404EB59A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 138A7AD8A4F0D1A827E0783E803E524C;
+			remoteInfo = HHRouter;
+		};
+		76ABE76129A15C6D59F16DE5CFF8B999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28F642BB101BC8E0D7E71E995115F56E;
+			remoteInfo = GYHttpMock;
+		};
+		DB52EF2AA637EE8B10A9FF9219C0CB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CE245CE9ED945D3F7BD70BD0A86C215;
+			remoteInfo = YYAsyncLayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0070287BD82FDA7626CC05C7686B1B84 /* NSURLRequest+GYURLRequestProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+GYURLRequestProtocol.h"; path = "Categories/NSURLRequest+GYURLRequestProtocol.h"; sourceTree = "<group>"; };
+		019369303F0ADB6594150678E1F65518 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		06EE2C200E56D6E365523C8D79F648AB /* YYTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYTransaction.h; path = YYAsyncLayer/YYTransaction.h; sourceTree = "<group>"; };
+		087E490A516AB327B580E48ACD914F67 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		08D0C14FDBCE04B08368FB6A874E933B /* GYHttpMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYHttpMock.h; sourceTree = "<group>"; };
+		0A67F526842FCF0A5188148FE8EDC283 /* YYAsyncLayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYAsyncLayer-prefix.pch"; sourceTree = "<group>"; };
+		0A85022EF0D51E7AFBBE22571A744ED0 /* GYHttpClientHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYHttpClientHook.h; path = Hooks/GYHttpClientHook.h; sourceTree = "<group>"; };
+		0BBFDEDDE07B381483873F92E3739EE1 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		0DD7C6B9AEC4DAB7BD7C59D05256CAA6 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		16150F825578E29FA8D22F6C9EECDB35 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		16FA52B663D3A37C992DECA4DF508F89 /* YYTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTransaction.m; path = YYAsyncLayer/YYTransaction.m; sourceTree = "<group>"; };
+		18BBC3572DB7D2A2212736BA5A711EBC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		195E10A9E5858EBE82FE63C678ECFE66 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		19B7AD95AB3BEF8B1E08DA82E1FA095C /* GYMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYMatcher.m; sourceTree = "<group>"; };
+		1BFABB240C52076C94AC459E2FBE9C3F /* Pods-iOS-Architecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Architecture.debug.xcconfig"; sourceTree = "<group>"; };
+		1C500B6634BC7306223A90B26AD9F0AF /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		1FEE719ED4D3807F6BDE4331DB4BF8FF /* Pods-iOS-Architecture-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS-Architecture-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2044CC9D5A965153D58D256C630D9A6B /* GYMockRequestDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYMockRequestDSL.m; path = Request/GYMockRequestDSL.m; sourceTree = "<group>"; };
+		2971684F1EA4500A9D7C3B4058427F88 /* NSURLRequest+GYURLRequestProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+GYURLRequestProtocol.m"; path = "Categories/NSURLRequest+GYURLRequestProtocol.m"; sourceTree = "<group>"; };
+		2975FF9AABB5E73259AF0E32AC036D51 /* HHRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HHRouter.xcconfig; sourceTree = "<group>"; };
+		2ABCEA65C2B4E40EEC3778CDBF57E24B /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		2C609AEDB5D52C691C05B45D0D6FF7F7 /* GYNSURLConnectionHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYNSURLConnectionHook.h; path = Hooks/GYNSURLConnectionHook.h; sourceTree = "<group>"; };
+		2D18999E02AFFAA680A2C4F027AABB4D /* GYMockRequestDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYMockRequestDSL.h; path = Request/GYMockRequestDSL.h; sourceTree = "<group>"; };
+		2D7D8F8E66303604B7EF0303A862F594 /* libPods-iOS-Architecture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-iOS-Architecture.a"; path = "libPods-iOS-Architecture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7D68EC0E25BFC8B2AC14073A1DC3C1 /* YYSentinel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYSentinel.h; path = YYAsyncLayer/YYSentinel.h; sourceTree = "<group>"; };
+		30C5A383E37322C2342F313F4FE2CB08 /* GYMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYMatcher.h; sourceTree = "<group>"; };
+		322D7E300C07F5B3596AEBE3FEF9C827 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		37B6281823C6322EF9C99E2AA30606F6 /* GYMockResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYMockResponse.h; path = Response/GYMockResponse.h; sourceTree = "<group>"; };
+		3812186D82FD25CC4B35439AACA0E1CB /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		39C592E3043756892336EA7EC189A968 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		3A57C00022B7434DE03F5D841ECC52D6 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDWebImage.a; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD86FA9541164E47B0CDB0303E73D67 /* GYMockResponseDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYMockResponseDSL.h; path = Response/GYMockResponseDSL.h; sourceTree = "<group>"; };
+		3C324679D71B002D06FA529811091404 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		3ED58EF3A4E7BA07372A4428DC377AB7 /* libGYHttpMock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGYHttpMock.a; path = libGYHttpMock.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		403F12434E99C7341BED4007829A1937 /* GYNSURLSessionHook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYNSURLSessionHook.h; path = Hooks/GYNSURLSessionHook.h; sourceTree = "<group>"; };
+		414555A321E70A396D4D84560FADCBB6 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		4B4079A04D7D6E2CC379535BDA2AD49D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		4DC245D92D13915FDBC78433EE0A002A /* GYHttpMock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYHttpMock.m; sourceTree = "<group>"; };
+		4E508F8AE646248253FAF195C95C34FD /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		55B9C13B9DDABF46A514FF0DE002A782 /* GYHttpMock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GYHttpMock-dummy.m"; sourceTree = "<group>"; };
+		5929A350578EC5DFC4FA21C74C2E578F /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		5E21F75C2E0AD7466DAA35C81D433824 /* GYMockURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GYMockURLProtocol.h; sourceTree = "<group>"; };
+		621DD5CB4E3B7D784EAB6134AE16AE7F /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		63CC262F6847FAE7BA964F161D8DA837 /* YYAsyncLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYAsyncLayer.m; path = YYAsyncLayer/YYAsyncLayer.m; sourceTree = "<group>"; };
+		64CE2260A3640DA44FE377A711BA7F42 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		6625BB9366FDF77CEE9D5A7CC8457784 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		66D3472E41F820E9C3885172522A28FC /* GYMockResponseDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYMockResponseDSL.m; path = Response/GYMockResponseDSL.m; sourceTree = "<group>"; };
+		680109F9E07968779874077A023F0998 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		6817471DDA0D0FA3B3EED26F788E6D15 /* GYHttpMock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GYHttpMock-prefix.pch"; sourceTree = "<group>"; };
+		6ABAE4DB5140079D664419CCA0418B5C /* GYNSURLConnectionHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYNSURLConnectionHook.m; path = Hooks/GYNSURLConnectionHook.m; sourceTree = "<group>"; };
+		6D1B0E580EF6209C70461CF70A3466EE /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		702320FED65F52C24AF92CF7536A98A4 /* Pods-iOS-Architecture-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-Architecture-resources.sh"; sourceTree = "<group>"; };
+		70DB3D6CED03B6203535E147541F35D0 /* NSString+mock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+mock.m"; path = "Categories/NSString+mock.m"; sourceTree = "<group>"; };
+		71CB81E80B073855AC76E2E0B6284695 /* YYSentinel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYSentinel.m; path = YYAsyncLayer/YYSentinel.m; sourceTree = "<group>"; };
+		72C40663B7B5590A0ACE6D5F83EED20D /* HHRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HHRouter-dummy.m"; sourceTree = "<group>"; };
+		78335379299B4E4953D76B3CC19F1963 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B5D0F38A68BBBA1CD3C94C3B6974673 /* libYYAsyncLayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYAsyncLayer.a; path = libYYAsyncLayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAA40B409F8CFC72C78823B37C15B20 /* GYHttpMock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GYHttpMock.xcconfig; sourceTree = "<group>"; };
+		7D062084C93ED170B9098AC73B2601ED /* GYHttpClientHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYHttpClientHook.m; path = Hooks/GYHttpClientHook.m; sourceTree = "<group>"; };
+		7E24BA9F896C94E1A27AFDAE5B0A1475 /* Pods-iOS-Architecture-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-Architecture-acknowledgements.plist"; sourceTree = "<group>"; };
+		821638A99D28B79F28F9B0C97C5F2665 /* GYMockRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYMockRequest.m; path = Request/GYMockRequest.m; sourceTree = "<group>"; };
+		917B6E71A55E3ECE8AA1CFBD9D29C906 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94839AEC8B3F76E2046C229B90F93B7C /* HHRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HHRouter.m; path = HHRouter/HHRouter.m; sourceTree = "<group>"; };
+		989C5B3EB76F756AC8A249D703625482 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		9BF2A773D5498962869A587938BC4CD0 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		9E419BE948A4F108FEF6172972991678 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		A09ECDF719EA454DA9D571D09182F0E9 /* YYAsyncLayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYAsyncLayer-dummy.m"; sourceTree = "<group>"; };
+		A329112897B1E7390B36757860420BC7 /* GYMockURLProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GYMockURLProtocol.m; sourceTree = "<group>"; };
+		A3912297724FB5F9300A6D04FCF6196D /* GYMockResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYMockResponse.m; path = Response/GYMockResponse.m; sourceTree = "<group>"; };
+		A3C9AF66F55C8D9883BDE25B998B9108 /* Pods-iOS-Architecture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-Architecture-dummy.m"; sourceTree = "<group>"; };
+		A7C5484C97F5F62E094CB1C16B351FB6 /* Pods-iOS-Architecture-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-Architecture-frameworks.sh"; sourceTree = "<group>"; };
+		A9BB00BF7C6D4FAEE893CBE2A3996D63 /* YYAsyncLayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYAsyncLayer.xcconfig; sourceTree = "<group>"; };
+		AA8BC0F684E1D360D2FEF24B6FCA3840 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		B05C383E10CA5F497B38277F0BAC3BEC /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		B534A87549CB102162956DA411B4DE01 /* Pods-iOS-Architecture.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Architecture.beta.xcconfig"; sourceTree = "<group>"; };
+		B541925DD7AB0D1E7AD00E324C066846 /* libHHRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHHRouter.a; path = libHHRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8BF6B40DE74F1FEF9ED33F04C17DD45 /* GYNSURLSessionHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GYNSURLSessionHook.m; path = Hooks/GYNSURLSessionHook.m; sourceTree = "<group>"; };
+		BCF1FE07E151679AAB651A61A9E1964F /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		CA6D176906675EF18016C8FE8304509C /* HHRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HHRouter-prefix.pch"; sourceTree = "<group>"; };
+		CF7BB3A6D37770469466D3B2294BA8B5 /* NSString+mock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+mock.h"; path = "Categories/NSString+mock.h"; sourceTree = "<group>"; };
+		D11F9AA2038A8424DF981B660A09C56C /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		D1DBDBE7984E7196E087172229E598C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D75D3EB22EE11DB197FAD2AE8C7B5986 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		DC8D51800402BE3B7A468D5F5CE28E29 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		E318979AEB8958A8D66EF6C3DD36714D /* YYAsyncLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYAsyncLayer.h; path = YYAsyncLayer/YYAsyncLayer.h; sourceTree = "<group>"; };
+		E8DEE448C15226958D452B3F35466EFD /* GYMockRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GYMockRequest.h; path = Request/GYMockRequest.h; sourceTree = "<group>"; };
+		EBC7CA5644EF33D6B0778AC334333CF6 /* Pods-iOS-Architecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS-Architecture.release.xcconfig"; sourceTree = "<group>"; };
+		EE496BB834C4EED9B5C676C3DE788322 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		F31FB74ABD1DB7F613201D8CDD9BA1CC /* HHRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HHRouter.h; path = HHRouter/HHRouter.h; sourceTree = "<group>"; };
+		FA65E5F90CE7C7F1457E9F549768571E /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		FA8E89A8B3876296310F5BF5874F30B9 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2964BE56AC26109ADE289E7EBDE8B790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C74E84A4A25AD0922DB6F273D1D7B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E08C4191DF5A0443329160EE1CE538F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E646C975BE93458499C43881604BD73 /* Foundation.framework in Frameworks */,
+				D987AF018E207E85334E64526DC02905 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A924F08CEA9E3A9CB77113EE5F1028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8415ED0E6AC96DFAAD02A944E8A41D /* CFNetwork.framework in Frameworks */,
+				0B1A3A55C9137D6DD9FE89591CAC0BB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		955EB1BB40BEA490E57694CAD459F6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E86943EEB252B0282281BFCE269C61F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70A98F14FD33C95F79E57B410403681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B35F5304F64DA5CFD101601112AC01 /* Foundation.framework in Frameworks */,
+				5D7873455F09258D7FC42B1D3AA3462E /* QuartzCore.framework in Frameworks */,
+				EE17F6191B2255802E862F2AED5BDC2D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B98FE193EF67F3D80844A8964B95FA /* YYAsyncLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E318979AEB8958A8D66EF6C3DD36714D /* YYAsyncLayer.h */,
+				63CC262F6847FAE7BA964F161D8DA837 /* YYAsyncLayer.m */,
+				2E7D68EC0E25BFC8B2AC14073A1DC3C1 /* YYSentinel.h */,
+				71CB81E80B073855AC76E2E0B6284695 /* YYSentinel.m */,
+				06EE2C200E56D6E365523C8D79F648AB /* YYTransaction.h */,
+				16FA52B663D3A37C992DECA4DF508F89 /* YYTransaction.m */,
+				FF0E6B94E569DECA82AD8BC9731E2543 /* Support Files */,
+			);
+			name = YYAsyncLayer;
+			path = YYAsyncLayer;
+			sourceTree = "<group>";
+		};
+		1077B6D1777890CBE685391C9705BE7A /* HHRouter */ = {
+			isa = PBXGroup;
+			children = (
+				F31FB74ABD1DB7F613201D8CDD9BA1CC /* HHRouter.h */,
+				94839AEC8B3F76E2046C229B90F93B7C /* HHRouter.m */,
+				F8D9FDF1A64E75D6C407597EA0242D26 /* Support Files */,
+			);
+			name = HHRouter;
+			path = HHRouter;
+			sourceTree = "<group>";
+		};
+		1583F276A52AF4D50BEDD3195A65DD78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3CED03D7E8ADB60239ACBEB9182FC7A /* GYHttpMock */,
+				1077B6D1777890CBE685391C9705BE7A /* HHRouter */,
+				67B80C3C5778FC2CF2F5A840D8C2B273 /* SDWebImage */,
+				05B98FE193EF67F3D80844A8964B95FA /* YYAsyncLayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDAEBA2E86E0088EAE413A3C0281F3E3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30F89982417418186C3B4562A050E03E /* Pods-iOS-Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				1FEE719ED4D3807F6BDE4331DB4BF8FF /* Pods-iOS-Architecture-acknowledgements.markdown */,
+				7E24BA9F896C94E1A27AFDAE5B0A1475 /* Pods-iOS-Architecture-acknowledgements.plist */,
+				A3C9AF66F55C8D9883BDE25B998B9108 /* Pods-iOS-Architecture-dummy.m */,
+				A7C5484C97F5F62E094CB1C16B351FB6 /* Pods-iOS-Architecture-frameworks.sh */,
+				702320FED65F52C24AF92CF7536A98A4 /* Pods-iOS-Architecture-resources.sh */,
+				B534A87549CB102162956DA411B4DE01 /* Pods-iOS-Architecture.beta.xcconfig */,
+				1BFABB240C52076C94AC459E2FBE9C3F /* Pods-iOS-Architecture.debug.xcconfig */,
+				EBC7CA5644EF33D6B0778AC334333CF6 /* Pods-iOS-Architecture.release.xcconfig */,
+			);
+			name = "Pods-iOS-Architecture";
+			path = "Target Support Files/Pods-iOS-Architecture";
+			sourceTree = "<group>";
+		};
+		5168C881BDEACF4286903A9EB7B28426 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CAA40B409F8CFC72C78823B37C15B20 /* GYHttpMock.xcconfig */,
+				55B9C13B9DDABF46A514FF0DE002A782 /* GYHttpMock-dummy.m */,
+				6817471DDA0D0FA3B3EED26F788E6D15 /* GYHttpMock-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GYHttpMock";
+			sourceTree = "<group>";
+		};
+		537D287225A2A24354AE108BA1A9B4C1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4E508F8AE646248253FAF195C95C34FD /* NSData+ImageContentType.h */,
+				39C592E3043756892336EA7EC189A968 /* NSData+ImageContentType.m */,
+				195E10A9E5858EBE82FE63C678ECFE66 /* SDImageCache.h */,
+				D75D3EB22EE11DB197FAD2AE8C7B5986 /* SDImageCache.m */,
+				621DD5CB4E3B7D784EAB6134AE16AE7F /* SDWebImageCompat.h */,
+				680109F9E07968779874077A023F0998 /* SDWebImageCompat.m */,
+				B05C383E10CA5F497B38277F0BAC3BEC /* SDWebImageDecoder.h */,
+				6625BB9366FDF77CEE9D5A7CC8457784 /* SDWebImageDecoder.m */,
+				16150F825578E29FA8D22F6C9EECDB35 /* SDWebImageDownloader.h */,
+				1C500B6634BC7306223A90B26AD9F0AF /* SDWebImageDownloader.m */,
+				EE496BB834C4EED9B5C676C3DE788322 /* SDWebImageDownloaderOperation.h */,
+				087E490A516AB327B580E48ACD914F67 /* SDWebImageDownloaderOperation.m */,
+				0BBFDEDDE07B381483873F92E3739EE1 /* SDWebImageManager.h */,
+				989C5B3EB76F756AC8A249D703625482 /* SDWebImageManager.m */,
+				414555A321E70A396D4D84560FADCBB6 /* SDWebImageOperation.h */,
+				9BF2A773D5498962869A587938BC4CD0 /* SDWebImagePrefetcher.h */,
+				3C324679D71B002D06FA529811091404 /* SDWebImagePrefetcher.m */,
+				917B6E71A55E3ECE8AA1CFBD9D29C906 /* UIButton+WebCache.h */,
+				2ABCEA65C2B4E40EEC3778CDBF57E24B /* UIButton+WebCache.m */,
+				DC8D51800402BE3B7A468D5F5CE28E29 /* UIImage+GIF.h */,
+				FA65E5F90CE7C7F1457E9F549768571E /* UIImage+GIF.m */,
+				3812186D82FD25CC4B35439AACA0E1CB /* UIImage+MultiFormat.h */,
+				6D1B0E580EF6209C70461CF70A3466EE /* UIImage+MultiFormat.m */,
+				019369303F0ADB6594150678E1F65518 /* UIImageView+HighlightedWebCache.h */,
+				BCF1FE07E151679AAB651A61A9E1964F /* UIImageView+HighlightedWebCache.m */,
+				D11F9AA2038A8424DF981B660A09C56C /* UIImageView+WebCache.h */,
+				FA8E89A8B3876296310F5BF5874F30B9 /* UIImageView+WebCache.m */,
+				5929A350578EC5DFC4FA21C74C2E578F /* UIView+WebCacheOperation.h */,
+				64CE2260A3640DA44FE377A711BA7F42 /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		67B80C3C5778FC2CF2F5A840D8C2B273 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				537D287225A2A24354AE108BA1A9B4C1 /* Core */,
+				B94462E5AAEAF95806485E7E59793B86 /* Support Files */,
+			);
+			name = SDWebImage;
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				1583F276A52AF4D50BEDD3195A65DD78 /* Pods */,
+				CE098A374DCFA476C3757431EDAF9BC2 /* Products */,
+				B9F12C64C7E47D5F6619774158B94F1B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A3CED03D7E8ADB60239ACBEB9182FC7A /* GYHttpMock */ = {
+			isa = PBXGroup;
+			children = (
+				0A85022EF0D51E7AFBBE22571A744ED0 /* GYHttpClientHook.h */,
+				7D062084C93ED170B9098AC73B2601ED /* GYHttpClientHook.m */,
+				08D0C14FDBCE04B08368FB6A874E933B /* GYHttpMock.h */,
+				4DC245D92D13915FDBC78433EE0A002A /* GYHttpMock.m */,
+				30C5A383E37322C2342F313F4FE2CB08 /* GYMatcher.h */,
+				19B7AD95AB3BEF8B1E08DA82E1FA095C /* GYMatcher.m */,
+				E8DEE448C15226958D452B3F35466EFD /* GYMockRequest.h */,
+				821638A99D28B79F28F9B0C97C5F2665 /* GYMockRequest.m */,
+				2D18999E02AFFAA680A2C4F027AABB4D /* GYMockRequestDSL.h */,
+				2044CC9D5A965153D58D256C630D9A6B /* GYMockRequestDSL.m */,
+				37B6281823C6322EF9C99E2AA30606F6 /* GYMockResponse.h */,
+				A3912297724FB5F9300A6D04FCF6196D /* GYMockResponse.m */,
+				3AD86FA9541164E47B0CDB0303E73D67 /* GYMockResponseDSL.h */,
+				66D3472E41F820E9C3885172522A28FC /* GYMockResponseDSL.m */,
+				5E21F75C2E0AD7466DAA35C81D433824 /* GYMockURLProtocol.h */,
+				A329112897B1E7390B36757860420BC7 /* GYMockURLProtocol.m */,
+				2C609AEDB5D52C691C05B45D0D6FF7F7 /* GYNSURLConnectionHook.h */,
+				6ABAE4DB5140079D664419CCA0418B5C /* GYNSURLConnectionHook.m */,
+				403F12434E99C7341BED4007829A1937 /* GYNSURLSessionHook.h */,
+				B8BF6B40DE74F1FEF9ED33F04C17DD45 /* GYNSURLSessionHook.m */,
+				CF7BB3A6D37770469466D3B2294BA8B5 /* NSString+mock.h */,
+				70DB3D6CED03B6203535E147541F35D0 /* NSString+mock.m */,
+				0070287BD82FDA7626CC05C7686B1B84 /* NSURLRequest+GYURLRequestProtocol.h */,
+				2971684F1EA4500A9D7C3B4058427F88 /* NSURLRequest+GYURLRequestProtocol.m */,
+				5168C881BDEACF4286903A9EB7B28426 /* Support Files */,
+			);
+			name = GYHttpMock;
+			path = GYHttpMock;
+			sourceTree = "<group>";
+		};
+		B94462E5AAEAF95806485E7E59793B86 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				322D7E300C07F5B3596AEBE3FEF9C827 /* SDWebImage.xcconfig */,
+				9E419BE948A4F108FEF6172972991678 /* SDWebImage-dummy.m */,
+				0DD7C6B9AEC4DAB7BD7C59D05256CAA6 /* SDWebImage-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+		B9F12C64C7E47D5F6619774158B94F1B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30F89982417418186C3B4562A050E03E /* Pods-iOS-Architecture */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CDAEBA2E86E0088EAE413A3C0281F3E3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B4079A04D7D6E2CC379535BDA2AD49D /* CFNetwork.framework */,
+				78335379299B4E4953D76B3CC19F1963 /* Foundation.framework */,
+				AA8BC0F684E1D360D2FEF24B6FCA3840 /* ImageIO.framework */,
+				18BBC3572DB7D2A2212736BA5A711EBC /* QuartzCore.framework */,
+				D1DBDBE7984E7196E087172229E598C7 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE098A374DCFA476C3757431EDAF9BC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ED58EF3A4E7BA07372A4428DC377AB7 /* libGYHttpMock.a */,
+				B541925DD7AB0D1E7AD00E324C066846 /* libHHRouter.a */,
+				2D7D8F8E66303604B7EF0303A862F594 /* libPods-iOS-Architecture.a */,
+				3A57C00022B7434DE03F5D841ECC52D6 /* libSDWebImage.a */,
+				7B5D0F38A68BBBA1CD3C94C3B6974673 /* libYYAsyncLayer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8D9FDF1A64E75D6C407597EA0242D26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2975FF9AABB5E73259AF0E32AC036D51 /* HHRouter.xcconfig */,
+				72C40663B7B5590A0ACE6D5F83EED20D /* HHRouter-dummy.m */,
+				CA6D176906675EF18016C8FE8304509C /* HHRouter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HHRouter";
+			sourceTree = "<group>";
+		};
+		FF0E6B94E569DECA82AD8BC9731E2543 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9BB00BF7C6D4FAEE893CBE2A3996D63 /* YYAsyncLayer.xcconfig */,
+				A09ECDF719EA454DA9D571D09182F0E9 /* YYAsyncLayer-dummy.m */,
+				0A67F526842FCF0A5188148FE8EDC283 /* YYAsyncLayer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYAsyncLayer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1682F11DD1DC78F8AF385409F1AAC705 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842DE31022BA0A5D02AE2514B17C983F /* GYHttpClientHook.h in Headers */,
+				8454A567163F07FAFE6943A6D4529627 /* GYHttpMock.h in Headers */,
+				5BB9CF9F39DBDF770682A35AABE88CEB /* GYMatcher.h in Headers */,
+				5CDB5F496FB97D9DCA1717A1B1318DDD /* GYMockRequest.h in Headers */,
+				0F597D384E0DCAC9DC405FF3E058E047 /* GYMockRequestDSL.h in Headers */,
+				5C182E0290CC9511F6DAC4B662D0DBF1 /* GYMockResponse.h in Headers */,
+				59E6AF1F00817A3950AD0543E18AE0D5 /* GYMockResponseDSL.h in Headers */,
+				323BBCE6B68C12B6C8C1EE7606A30F0C /* GYMockURLProtocol.h in Headers */,
+				5B60A33981B3B9C4F8D59C3BC652A4E9 /* GYNSURLConnectionHook.h in Headers */,
+				912480A9208C7EDFCB8A8F623BE771BF /* GYNSURLSessionHook.h in Headers */,
+				225A9A6DEE5D388749D71B53091D0A87 /* NSString+mock.h in Headers */,
+				B7EE34994AE4170445DFC13B07E34DE6 /* NSURLRequest+GYURLRequestProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AB93DABC6CBC313D49C0572CA185494 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F2894649908C572065AF820C4DCFC1 /* NSData+ImageContentType.h in Headers */,
+				1CDF48761FF7839C417E09C2E0B340E7 /* SDImageCache.h in Headers */,
+				8278C1A712A6BC8E06F2115ADF8C63B6 /* SDWebImageCompat.h in Headers */,
+				96B397C19BD83E29AE7EE83F35D5FD88 /* SDWebImageDecoder.h in Headers */,
+				9F0E0F8F362F10919AE95B45B869880C /* SDWebImageDownloader.h in Headers */,
+				F3DB57267B015E26B8496BB58809E182 /* SDWebImageDownloaderOperation.h in Headers */,
+				61E5FB3A7441F1FC3E99EA7098114A37 /* SDWebImageManager.h in Headers */,
+				33C74B27324F9DFBED8C05D262B1A1A1 /* SDWebImageOperation.h in Headers */,
+				75FDB54E750C3D6FB8644FCB5348E354 /* SDWebImagePrefetcher.h in Headers */,
+				27A3A339B05F98916EC8A1A0E7B7DC17 /* UIButton+WebCache.h in Headers */,
+				91082DD18A4647A60C727A0AA9321F63 /* UIImage+GIF.h in Headers */,
+				9BB0C712F999099B0CA2D3B104514C17 /* UIImage+MultiFormat.h in Headers */,
+				5BCDCCB3F6713F46C5478307DB7E3AEF /* UIImageView+HighlightedWebCache.h in Headers */,
+				C308D1D1886A7962C88FC8B807A17EB8 /* UIImageView+WebCache.h in Headers */,
+				F841F793395AF603CB91F2E22FD12BCD /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95792984C4E3C87C423BB240A3019367 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D0925431F32484ACD81CC867C3B0DC /* HHRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97DF045B25061C7D114DDD91093A8877 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D7FE6AEA3257B6469E1EE61910FDD7 /* YYAsyncLayer.h in Headers */,
+				573627CD4F3B223DC45CC7A69C05DC54 /* YYSentinel.h in Headers */,
+				98EDB6330BD1AF5CF7F8657E26F78DD6 /* YYTransaction.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		138A7AD8A4F0D1A827E0783E803E524C /* HHRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9C99E9EC3BE2FFEEAA1356CDC4B45A /* Build configuration list for PBXNativeTarget "HHRouter" */;
+			buildPhases = (
+				D18E006513FACC46FF35C4C72431AC45 /* Sources */,
+				955EB1BB40BEA490E57694CAD459F6AF /* Frameworks */,
+				95792984C4E3C87C423BB240A3019367 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHRouter;
+			productName = HHRouter;
+			productReference = B541925DD7AB0D1E7AD00E324C066846 /* libHHRouter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		28F642BB101BC8E0D7E71E995115F56E /* GYHttpMock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E94B646D959C6C48B1FD394E2E5DBC /* Build configuration list for PBXNativeTarget "GYHttpMock" */;
+			buildPhases = (
+				EDC78E14FA599B52F3265FB2361F8FB4 /* Sources */,
+				62A924F08CEA9E3A9CB77113EE5F1028 /* Frameworks */,
+				1682F11DD1DC78F8AF385409F1AAC705 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GYHttpMock;
+			productName = GYHttpMock;
+			productReference = 3ED58EF3A4E7BA07372A4428DC377AB7 /* libGYHttpMock.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3CE245CE9ED945D3F7BD70BD0A86C215 /* YYAsyncLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D474BC1D6A53CFC3124E571961BDBFA /* Build configuration list for PBXNativeTarget "YYAsyncLayer" */;
+			buildPhases = (
+				9C5037D6D94817111A4028DED7450A36 /* Sources */,
+				E70A98F14FD33C95F79E57B410403681 /* Frameworks */,
+				97DF045B25061C7D114DDD91093A8877 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYAsyncLayer;
+			productName = YYAsyncLayer;
+			productReference = 7B5D0F38A68BBBA1CD3C94C3B6974673 /* libYYAsyncLayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		62D89451FF74DC26DBE6DA5C937984AF /* Pods-iOS-Architecture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEAFA8845BB17DCA4BDD120BF1B67FE /* Build configuration list for PBXNativeTarget "Pods-iOS-Architecture" */;
+			buildPhases = (
+				089176ACC9384715863E993DF7F91D21 /* Sources */,
+				2964BE56AC26109ADE289E7EBDE8B790 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BFDC4332EA3B86A6377A836C4CF47C0 /* PBXTargetDependency */,
+				1FAEC623E790F9FB0CF23C80EFD94D8C /* PBXTargetDependency */,
+				B13F091BFE80E3FC15ECE1380896F02F /* PBXTargetDependency */,
+				66E3065C9D66288A860A5D8A37F44BDB /* PBXTargetDependency */,
+			);
+			name = "Pods-iOS-Architecture";
+			productName = "Pods-iOS-Architecture";
+			productReference = 2D7D8F8E66303604B7EF0303A862F594 /* libPods-iOS-Architecture.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FF3A13052D2CA9F888C88974C07EB566 /* SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7BD372D7768FCC5DDF74329AD83C90 /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildPhases = (
+				8041E75236FE22EDFE9320305E1E91F1 /* Sources */,
+				5E08C4191DF5A0443329160EE1CE538F /* Frameworks */,
+				2AB93DABC6CBC313D49C0572CA185494 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = 3A57C00022B7434DE03F5D841ECC52D6 /* libSDWebImage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CE098A374DCFA476C3757431EDAF9BC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28F642BB101BC8E0D7E71E995115F56E /* GYHttpMock */,
+				138A7AD8A4F0D1A827E0783E803E524C /* HHRouter */,
+				62D89451FF74DC26DBE6DA5C937984AF /* Pods-iOS-Architecture */,
+				FF3A13052D2CA9F888C88974C07EB566 /* SDWebImage */,
+				3CE245CE9ED945D3F7BD70BD0A86C215 /* YYAsyncLayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		089176ACC9384715863E993DF7F91D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBCAFB27A880147915F727C5756A6A8 /* Pods-iOS-Architecture-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8041E75236FE22EDFE9320305E1E91F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67D72BA994395A0572C4FF9BE4E2550 /* NSData+ImageContentType.m in Sources */,
+				EDD02276F6FDA8D1AEA852C53E793698 /* SDImageCache.m in Sources */,
+				94145B444B90B77F19DE66D0DFA9A45E /* SDWebImage-dummy.m in Sources */,
+				2F346775D066AB4589578BDD22B1733B /* SDWebImageCompat.m in Sources */,
+				A0A148B3388344C205629EA6EA55609D /* SDWebImageDecoder.m in Sources */,
+				4ECA7F087A604929BD0817E66FEEB81A /* SDWebImageDownloader.m in Sources */,
+				E88D15A1BC7217C689B1E9C0BE1F98F0 /* SDWebImageDownloaderOperation.m in Sources */,
+				799CA5F8B4583A669918D0CE38AF8D1D /* SDWebImageManager.m in Sources */,
+				B92189C59D11301E729C2145D9E71E84 /* SDWebImagePrefetcher.m in Sources */,
+				77A2C2BED6C10E73000F696490F397AC /* UIButton+WebCache.m in Sources */,
+				0D6F5F590A4204E3B589575B3A8E0AED /* UIImage+GIF.m in Sources */,
+				6EB3B9840229F4405EEE428557785506 /* UIImage+MultiFormat.m in Sources */,
+				BA519788FF3E52FC2CB8F2675DF29367 /* UIImageView+HighlightedWebCache.m in Sources */,
+				83F30D89982FC3267B559DDA64D84D07 /* UIImageView+WebCache.m in Sources */,
+				221185B3EE1ADEE7C7E6C27BA72A511D /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C5037D6D94817111A4028DED7450A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE84390987C4B0C3CA911F622C42F2E7 /* YYAsyncLayer-dummy.m in Sources */,
+				38BF2EBB9DECC6A44ACC8FD07790201F /* YYAsyncLayer.m in Sources */,
+				D946660983EFDF9C7C99729226EB9E39 /* YYSentinel.m in Sources */,
+				4593CBC2902785566B1A93106AD51DFC /* YYTransaction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18E006513FACC46FF35C4C72431AC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD1A2BA0ED1A861B48551144C42E0EB /* HHRouter-dummy.m in Sources */,
+				7B2539DED1E33188A02681A79D82E09D /* HHRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC78E14FA599B52F3265FB2361F8FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E370CA94A002031438FE1CD8EBE67452 /* GYHttpClientHook.m in Sources */,
+				79101CEBC9ECA277DAB296D30E24FC4B /* GYHttpMock-dummy.m in Sources */,
+				F56E8B862E0F646491108F3F4A896D13 /* GYHttpMock.m in Sources */,
+				70DE414E4A89DA5ECB1766AAB005439F /* GYMatcher.m in Sources */,
+				262610F07FA36D7B76282B5C67B7E076 /* GYMockRequest.m in Sources */,
+				2C97BA01AA6B938E507A8C102EDEFBF3 /* GYMockRequestDSL.m in Sources */,
+				5B4B9C1457FD8D0531AAC7E26CD162E1 /* GYMockResponse.m in Sources */,
+				7F2B717F53667B8D1397C9635ABD778A /* GYMockResponseDSL.m in Sources */,
+				EBD82B7F8E41FFDC6851291E49642101 /* GYMockURLProtocol.m in Sources */,
+				AEC9AB221F4357C4EF4608876B680E27 /* GYNSURLConnectionHook.m in Sources */,
+				1AB4E35A43DB9DE633DC8CACF3B6148E /* GYNSURLSessionHook.m in Sources */,
+				6CF09579D6E28F8AF0550DEF78411667 /* NSString+mock.m in Sources */,
+				B337FC401F39EF1B344914BC1F2AD954 /* NSURLRequest+GYURLRequestProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FAEC623E790F9FB0CF23C80EFD94D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HHRouter;
+			target = 138A7AD8A4F0D1A827E0783E803E524C /* HHRouter */;
+			targetProxy = 54343E1D7FF344F2D11159BF404EB59A /* PBXContainerItemProxy */;
+		};
+		5BFDC4332EA3B86A6377A836C4CF47C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GYHttpMock;
+			target = 28F642BB101BC8E0D7E71E995115F56E /* GYHttpMock */;
+			targetProxy = 76ABE76129A15C6D59F16DE5CFF8B999 /* PBXContainerItemProxy */;
+		};
+		66E3065C9D66288A860A5D8A37F44BDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYAsyncLayer;
+			target = 3CE245CE9ED945D3F7BD70BD0A86C215 /* YYAsyncLayer */;
+			targetProxy = DB52EF2AA637EE8B10A9FF9219C0CB19 /* PBXContainerItemProxy */;
+		};
+		B13F091BFE80E3FC15ECE1380896F02F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = FF3A13052D2CA9F888C88974C07EB566 /* SDWebImage */;
+			targetProxy = 006B60DF702602AECC436B496B378B21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16B99C452F1383537AD88D052A0197F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CAA40B409F8CFC72C78823B37C15B20 /* GYHttpMock.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GYHttpMock/GYHttpMock-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		270D77C4A7CDD5BD9F5C59EBD482EFD4 /* BETA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CAA40B409F8CFC72C78823B37C15B20 /* GYHttpMock.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GYHttpMock/GYHttpMock-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = BETA;
+		};
+		2B2044B35B2108FE96DA04720A5DE255 /* BETA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B534A87549CB102162956DA411B4DE01 /* Pods-iOS-Architecture.beta.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = BETA;
+		};
+		34AC473AC3F55A7ED00DF4F3004E80E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 322D7E300C07F5B3596AEBE3FEF9C827 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3890D7C92DE120C2BA762135796CFA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BF286B11D9F00AE22C64402011C8E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CAA40B409F8CFC72C78823B37C15B20 /* GYHttpMock.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GYHttpMock/GYHttpMock-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		535FBBC1A4736C306619416831F8F2BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BFABB240C52076C94AC459E2FBE9C3F /* Pods-iOS-Architecture.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		587B8ECC28E3A9FF4796C121925DC113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58D2C2C3EFC95B0AD4CC99C9A01843E5 /* BETA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 322D7E300C07F5B3596AEBE3FEF9C827 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = BETA;
+		};
+		64BF3B3620DC3FB2413A45314BB66578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2975FF9AABB5E73259AF0E32AC036D51 /* HHRouter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HHRouter/HHRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		681DDAE5D99F5D0B84D13E94F70611EB /* BETA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_BETA=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = BETA;
+		};
+		756549F94D3393BE38A09023BBAAC626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 322D7E300C07F5B3596AEBE3FEF9C827 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8884CF3DD56CF45F219CAAE1A007BD8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9BB00BF7C6D4FAEE893CBE2A3996D63 /* YYAsyncLayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYAsyncLayer/YYAsyncLayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9E83E85C8E386B82EE0BC9A546B7688C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9BB00BF7C6D4FAEE893CBE2A3996D63 /* YYAsyncLayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYAsyncLayer/YYAsyncLayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ACA1FDC3A10632CA4BCDDC474DE48F50 /* BETA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2975FF9AABB5E73259AF0E32AC036D51 /* HHRouter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HHRouter/HHRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = BETA;
+		};
+		B4EEE6DEBD45720FA573446171608271 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC7CA5644EF33D6B0778AC334333CF6 /* Pods-iOS-Architecture.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BC911A8FD83E03DC724C0EF2D9A947F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2975FF9AABB5E73259AF0E32AC036D51 /* HHRouter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HHRouter/HHRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DC1902B30DF887EDA474EEF66070013F /* BETA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9BB00BF7C6D4FAEE893CBE2A3996D63 /* YYAsyncLayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYAsyncLayer/YYAsyncLayer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = BETA;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C7BD372D7768FCC5DDF74329AD83C90 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D2C2C3EFC95B0AD4CC99C9A01843E5 /* BETA */,
+				34AC473AC3F55A7ED00DF4F3004E80E6 /* Debug */,
+				756549F94D3393BE38A09023BBAAC626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D474BC1D6A53CFC3124E571961BDBFA /* Build configuration list for PBXNativeTarget "YYAsyncLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1902B30DF887EDA474EEF66070013F /* BETA */,
+				9E83E85C8E386B82EE0BC9A546B7688C /* Debug */,
+				8884CF3DD56CF45F219CAAE1A007BD8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23E94B646D959C6C48B1FD394E2E5DBC /* Build configuration list for PBXNativeTarget "GYHttpMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				270D77C4A7CDD5BD9F5C59EBD482EFD4 /* BETA */,
+				16B99C452F1383537AD88D052A0197F4 /* Debug */,
+				3BF286B11D9F00AE22C64402011C8E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681DDAE5D99F5D0B84D13E94F70611EB /* BETA */,
+				587B8ECC28E3A9FF4796C121925DC113 /* Debug */,
+				3890D7C92DE120C2BA762135796CFA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9C99E9EC3BE2FFEEAA1356CDC4B45A /* Build configuration list for PBXNativeTarget "HHRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA1FDC3A10632CA4BCDDC474DE48F50 /* BETA */,
+				BC911A8FD83E03DC724C0EF2D9A947F6 /* Debug */,
+				64BF3B3620DC3FB2413A45314BB66578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEAFA8845BB17DCA4BDD120BF1B67FE /* Build configuration list for PBXNativeTarget "Pods-iOS-Architecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2044B35B2108FE96DA04720A5DE255 /* BETA */,
+				535FBBC1A4736C306619416831F8F2BD /* Debug */,
+				B4EEE6DEBD45720FA573446171608271 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
